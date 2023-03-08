@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg3"
+        android:layout_gravity="bottom"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg4"
+        android:layout_marginStart="20dp"
+        android:visibility="gone"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_app_logo"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="18dp"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="18dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <ImageView
+                android:id="@+id/icBack"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_back_bgrey" />
+
+            <ImageView
+                android:id="@+id/icMore"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_more" />
+
+        </RelativeLayout>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvNameModel"
+            app:textfont="@string/Gilroy_SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icBack"
+            android:layout_marginBottom="6dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvType"
+            app:textfont="@string/Gilroy_Regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icBack"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0dp"
+            android:text=""
+            android:textColor="@color/white75"
+            android:textSize="14dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@drawable/bg_white"
+            android:layout_margin="20dp">
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:layout_margin="10dp"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/tvViewInYourSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_grey_24"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_view_ar"
+                    android:clickable="false"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    app:textfont="@string/Gilroy_SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="0dp"
+                    android:text="@string/view_in_your_space"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineOrganization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    app:textfont="@string/Gilroy_SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icBack"
+                    android:layout_marginBottom="10dp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="0dp"
+                    android:text="@string/created_on"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvTime"
+                    app:textfont="@string/Gilroy_SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icBack"
+                    android:layout_marginBottom="10dp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="0dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvSize"
+                app:textfont="@string/Gilroy_SemiBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingEnd="24dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/flProgressRename"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bg_gradient">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+</FrameLayout>

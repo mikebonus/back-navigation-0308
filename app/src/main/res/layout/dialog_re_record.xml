@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white">
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Record new session"
+        android:textColor="@color/black"
+        app:textfont="@string/Gilroy_Bold"/>
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Do you want to continue?"
+        android:textColor="@color/black"
+        app:textfont="@string/Gilroy_Regular"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:layout_marginTop="30dp" />
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/btCancel"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:textColor="#007AFE"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/btRecord"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="right"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Record"
+            android:textColor="@color/red"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

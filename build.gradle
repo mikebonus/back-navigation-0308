@@ -1,0 +1,97 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = "1.5.20"
+    ext {
+        compileSdk = 31
+        minSdk = 24
+        targetSdk = 31
+
+        kotlin_version = '1.6.21'
+        kotlinx_coroutines_version = '1.5.2'
+        lifecycle_runtime_ktx_version = '2.4.1'
+        fragment_ktx_version = '1.4.1'
+        core_ktx_version = '1.7.0'
+
+        annotation_version = '1.3.0'
+        appcompat_version = '1.4.1'
+        fragment_version = '1.4.1'
+        constraintlayout_version = '2.1.3'
+
+        filament_version = '1.21.1'
+        arcore_version = '1.31.0'
+        fuel_version = '2.3.1'
+
+        material_version = '1.6.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10'
+        classpath 'com.google.ar.sceneform:plugin:1.17.1'
+        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.1'
+        // Dokka
+        classpath "org.jetbrains.dokka:dokka-gradle-plugin:1.6.10"
+        // Maven Central Publish
+        classpath "com.vanniktech:gradle-maven-publish-plugin:0.18.0"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+//        flatDir {
+//        }
+        maven { url "https://jitpack.io" }
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: 'org.jetbrains.dokka'
+
+afterEvaluate {
+    if (tasks.findByName('dokkaGfmPartial') == null) {
+        // If dokka isn't enabled on this module, skip
+        return
+    }
+    tasks.named('dokkaGfmPartial') {
+        dokkaSourceSets.configureEach {
+            reportUndocumented.set(true)
+            skipEmptyPackages.set(true)
+            skipDeprecated.set(true)
+            jdkVersion.set(8)
+
+            // Add Android SDK packages
+            noAndroidSdkLink.set(false)
+
+            // AndroidX + Compose docs
+            externalDocumentationLink {
+                url.set(new URL("https://developer.android.com/reference/"))
+                packageListUrl.set(new URL("https://developer.android.com/reference/androidx/package-list"))
+            }
+            externalDocumentationLink {
+                url.set(new URL("https://developer.android.com/reference/kotlin/"))
+                packageListUrl.set(new URL("https://developer.android.com/reference/kotlin/androidx/package-list"))
+            }
+
+            sourceLink {
+                localDirectory.set(project.file("src/main/kotlin"))
+                // URL showing where the source code can be accessed through the web browser
+                remoteUrl.set(new URL("https://github.com/sceneview/sceneview-android/blob/main/${project.name}/src/main/kotlin"))
+                // Suffix which is used to append the line number to the URL. Use #L for GitHub
+                remoteLineSuffix.set("#L")
+            }
+        }
+    }
+}

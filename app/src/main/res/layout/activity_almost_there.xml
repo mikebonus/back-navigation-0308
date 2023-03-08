@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_gradient"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_home1"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg4"
+        android:layout_marginStart="24dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineAlmostThere"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="40dp"
+        android:visibility="visible">
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0dp"
+            android:text="@string/str_subscribe"
+            android:textColor="#F657AB"
+            android:textSize="20dp"
+            app:textfont="@string/Gilroy_Medium" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="0dp"
+                android:text="@string/str_almost_there"
+                android:textColor="@color/white"
+                android:layout_marginBottom="36dp"
+                android:textSize="32dp"
+                app:textfont="@string/Gilroy_SemiBold" />
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:text="@string/select_your_plan"
+                android:textColor="@color/white"
+                android:layout_marginBottom="18dp"
+                android:textSize="20dp"
+                app:textfont="@string/Gilroy_Regular" />
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvIndividual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_individual"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_gradient_blue_pink"
+                app:textfont="@string/Gilroy_SemiBold"
+                android:visibility="gone"/>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvOrganization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="0dp"
+                android:text="@string/organization"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:background="@drawable/bg_blue_24"
+                android:paddingStart="20dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="16dp"
+                app:textfont="@string/Gilroy_Medium" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineThankYou"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_tk"
+            android:layout_marginBottom="10dp"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="0dp"
+            android:text="Awesome!"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:textSize="32dp"
+            app:textfont="@string/Gilroy_SemiBold" />
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_congratulations"
+            android:textColor="@color/white"
+            android:layout_marginBottom="32dp"
+            android:textSize="16dp"
+            app:textfont="@string/Gilroy_Regular" />
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="0dp"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:background="@drawable/bg_blue_24"
+            android:paddingStart="20dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="16dp"
+            app:textfont="@string/Gilroy_Medium" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineApprovedPending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvApprovedPending"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="@string/approval_pending"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_gradient_blue_pink"
+            app:textfont="@string/Gilroy_SemiBold"
+            android:visibility="visible"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="0dp"
+            android:text="@string/user_registration_was_successful"
+            android:textColor="@color/white"
+            android:layout_marginBottom="18dp"
+            android:textSize="16sp"
+            app:textfont="@string/Gilroy_Regular" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/flProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bg_gradient">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+</FrameLayout>

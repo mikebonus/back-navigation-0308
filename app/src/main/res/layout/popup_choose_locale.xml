@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineCreateProject"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gradient_6">
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            app:textfont="@string/Gilroy_Regular"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvKorean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="22dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="22dp"
+            android:paddingBottom="8dp"
+            android:text="@string/korean"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            app:textfont="@string/Gilroy_Regular" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

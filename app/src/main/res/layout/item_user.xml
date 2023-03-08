@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/user"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/tvName"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:text="L"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/bg_circle_pink1"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:textfont="@string/Gilroy_SemiBold"
+        android:visibility="visible"/>
+</FrameLayout>

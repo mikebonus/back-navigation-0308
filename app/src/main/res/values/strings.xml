@@ -1,0 +1,428 @@
+<resources>
+    <string name="app_name" translatable="false">OpenAir 3D</string>
+    <string name="facebook_app_id" translatable="false">1885838671606856</string>
+    <string name="facebook_client_token" translatable="false">8c208654dab44e0185a31b74e7ee644f</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1885838671606856</string>
+    <string name="retryDialog">Try again</string>
+    <string name="setup">Setup</string>
+    <string name="OK">OK</string>
+    <string name="checkInternet">Please connect internet using app</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="rename_model">Rename Model</string>
+    <string name="register"><u>Register</u></string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password1">Forgot \nPassword</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="continue_">Continue</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_verify">Verify &amp; Proceed</string>
+    <string name="create_account">Create \nAccount</string>
+    <string name="create_account1">Create Account</string>
+    <string name="home">Home</string>
+    <string name="members">Members</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="str_new_password">New password</string>
+    <string name="str__confirm_new_password">Confirm new password</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="do_not_have">Don\'t have an account?</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="str_logout">Logout</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="sign_in_social">Sign in with Apple or Google</string>
+    <string name="subject">LuxAI View Model</string>
+    <string name="welcome_title">Welcome To Halo</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="email_error">Please enter a valid email address.</string>
+    <string name="phone_error">Please enter a valid mobile number.</string>
+    <string name="password_error">Please check your password. Password should contain at least 8 characters, uppercase, lowercase, number and special characters.</string>
+    <string name="other_sign_in">Other ways to sign in</string>
+    <string name="apple_id">Apple ID</string>
+    <string name="google">Google</string>
+    <string name="str_scene_scan">Scene scan</string>
+    <string name="str_scene">Scene</string>
+    <string name="str_object_scan">Object scan</string>
+    <string name="str_body_scan">Body scan</string>
+    <string name="str_body_scan1">Body scan</string>
+    <string name="str_object">Object</string>
+    <string name="str_enter_otp">OTP Verification</string>
+    <string name="password_confirm_error">Password mismatch. Please check and try again</string>
+    <string name="empty">You dont\'t have any models yet. Please scan to obtain models</string>
+    <string name="str_no_models_found">No models found</string>
+    <string name="empty_comment">No comments</string>
+    <string name="empty_tag">There is no tags</string>
+    <string name="welcome_content">You can create a 3D digital clone of spaces powered by our advanced reconstruction AI</string>
+    <string name="password_notice">Password should be atleast 8 characters with 1 number, 1 lowercase, 1 uppercase, and 1 special character</string>
+    <string name="show_depth">Show Depth</string>
+    <string name="hide_depth">Hide Depth</string>
+    <string name="depth_not_available">Depth Not Available</string>
+    <string name="search_site">Please type a site name</string>
+    <string name="str_welcome">WELCOME</string>
+    <string name="str_scan_and_create">Scan and create instant \n3D spaces with your mobile device</string>
+    <string name="str_get_started">Get started</string>
+    <string name="str_welcome_back">Welcome Back</string>
+    <string name="str_sign_in_continue">Sign in to continue</string>
+    <string name="str_forgot_password">Forgot password?</string>
+    <string name="str_or_continue">Or continue with</string>
+    <string name="str_new_open_air">New to OpenAir?</string>
+    <string name="str_receive_code">Didn\’t receive code?</string>
+    <string name="str_create_an_account">Create an account</string>
+    <string name="str_joined_us">Already a user?</string>
+    <string name="str_term_conditions">By signing up, you agree to our Terms of Conditions and Privacy Policy.</string>
+    <string name="str_dont_worry">Please enter email associated with \nyour account.</string>
+    <string name="str_four_digit">An 6 digit code has been sent to \nyour mobile number</string>
+    <string name="str_data_usage">Data usage summary</string>
+    <string name="str_data_usage1">Data usage</string>
+    <string name="str_no_subscription">No subscription</string>
+    <string name="str_storage">Storage is almost full</string>
+    <string name="str_view_models">View Models</string>
+    <string name="str_premium">Premium</string>
+    <string name="str_recent_models">Recent Models</string>
+    <string name="str_view_all">View All</string>
+    <string name="str_meatball_options">Options</string>
+    <string name="str_renew_now">Renew now</string>
+    <string name="str_have_account">I already have an account</string>
+    <string name="str_dashboard">Dashboard</string>
+    <string name="str_model_scanned">Models scanned</string>
+    <string name="str_my_sites">My sites</string>
+    <string name="str_add_sites">Add site</string>
+    <string name="str_upgrade_now">Upgrade now</string>
+    <string name="str_workspace">Workspace</string>
+    <string name="str_repository">Repository</string>
+    <string name="str_recent_files">Recent files</string>
+    <string name="str_account_settings">Account settings</string>
+    <string name="str_display_name">Display Name</string>
+    <string name="str_sub_plan">Subscription plan</string>
+    <string name="str_upgrade">Upgrade</string>
+    <string name="str_deactivate">Deactivate your account</string>
+    <string name="str_sign_out">Sign out</string>
+    <string name="str_AddPhoto">Add Photo</string>
+    <string name="str_Cancel">Cancel</string>
+    <string name="str_ChoosefromLibrary">Choose from Library</string>
+    <string name="str_TakePhoto">Take Photo</string>
+    <string name="str_resend"><u>Resend Code</u></string>
+    <string name="str_verify_email">Verify your email</string>
+    <string name="str_email_content">Email verification is required to\nlogin your account</string>
+    <string name="str_send_email_verification">Send email verification link</string>
+    <string name="str_question">Questions? Email us at</string>
+    <string name="str_enter_digits_otp">Enter 6 digits OTP</string>
+    <string name="str_get_otp">Didn\'t get OTP?</string>
+    <string name="str_resend_otp">Resend OTP</string>
+    <string name="str_please_input">Please input</string>
+    <string name="str_enter_otp_error">Please enter the OTP sent to your phone number.</string>
+    <string name="str_phone_error">Please check your phone number</string>
+    <string name="str_password_match">Password didn\'t not match</string>
+    <string name="str_subscribe">Subscribe</string>
+    <string name="str_pricing_plans">Pricing plans</string>
+    <string name="str_personal">Personal</string>
+    <string name="str_business">Business</string>
+    <string name="str_experience_faster">experience faster, smoother and more\nprecise mobile device scans </string>
+    <string name="str_process">If you want better quality, \ncontinue to click more photos or \nupload to process.</string>
+    <string name="str_add_new_board">Add new board</string>
+    <string name="str_delete_project">Delete project</string>
+    <string name="str_no_repositories_found">No repositories found</string>
+    <string name="str_no_project_found">No project found</string>
+    <string name="str_no_files_found">No recent files found</string>
+    <string name="str_no_notifications_today_found">No notifications</string>
+    <string name="str_no_earlier_notifications_found">No notifications</string>
+    <string name="str_earlier_notifications">Earlier notifications</string>
+    <string name="str_search_model">Search model...</string>
+    <string name="str_want_delete">Do you want to delete the</string>
+    <string name="str_want_confirm_delete">Do you want to delete</string>
+    <string name="str_almost_there">Almost there!</string>
+    <string name="str_individual">Individual</string>
+    <string name="str_congratulations">Congratulations.\nYour subscription was successfull.</string>
+    <string name="str_create_new">Create New</string>
+    <string name="str_join_existing">Join existing</string>
+    <string name="str_create_new_organization">Create new organization</string>
+    <string name="str_enter_organization_name">Enter organization name</string>
+    <string name="str_join_existing_organization">Join existing organization</string>
+    <string name="str_enter_organization_id">Enter organization ID</string>
+    <string name="str_create">Create</string>
+    <string name="str_request">Request</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="str_edit_repository">Edit repository</string>
+    <string name="str_delete_repository">Delete repository</string>
+    <string name="str_edit_workspace">Edit workspace</string>
+    <string name="add_repository">Add</string>
+    <string name="edit_repository">Edit repository</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="repositories">Repositories</string>
+    <string name="users">Users</string>
+    <string name="add_user">Add User</string>
+    <string name="add">Add</string>
+    <string name="create_new_workspace">Create new workspace</string>
+    <string name="edit_workspace">Edit workspace</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="project">Project</string>
+    <string name="cad_file">CAD file</string>
+    <string name="mobile">Mobile</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="add_description">Add description</string>
+    <string name="select_tag">Select Tag</string>
+    <string name="system_locale" translatable="false">en</string>
+    <string name="english" translatable="false">English</string>
+    <string name="korean" translatable="false">한국어</string>
+    <string name="plan">Plan</string>
+    <string name="projects">Projects</string>
+    <string name="boards">Boards</string>
+    <string name="files">Files</string>
+    <string name="manage_repositories">Manage repositories</string>
+    <string name="good_morning">Good Morning,</string>
+    <string name="good_afternoon">Good Afternoon,</string>
+    <string name="good_evening">Good Evening,</string>
+    <string name="good_night">Good Night,</string>
+    <string name="search_user">Search user</string>
+    <string name="search_models">Search models</string>
+    <string name="newest">Newest</string>
+    <string name="notifications">Notifications</string>
+    <string name="today">Today</string>
+    <string name="mark_all_as_read">Mark all as read</string>
+    <string name="edit">Edit</string>
+    <string name="change">Change</string>
+    <string name="expiring_on">Expiring on</string>
+    <string name="renewal_due_on">Renewal due on </string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="new_password">New password</string>
+    <string name="current_password">Current password</string>
+    <string name="copy">Copy</string>
+    <string name="organisation_reference_id">Organisation reference ID</string>
+    <string name="organisation">Organisation</string>
+    <string name="edit_info">Edit info</string>
+    <string name="delete">Delete</string>
+    <string name="delete_workspace">Delete Workspace</string>
+    <string name="share">Share</string>
+    <string name="comments">Comments</string>
+    <string name="tags">Tags</string>
+    <string name="add_a_comment">Add a comment...</string>
+    <string name="reply"> Reply</string>
+    <string name="public_repo">Public</string>
+    <string name="private_repo">Private</string>
+    <string name="email_id">Email ID</string>
+    <string name="select_your_plan">Select your plan</string>
+    <string name="organization">Organization</string>
+    <string name="your_sites">Your sites</string>
+    <string name="oldest">Oldest</string>
+    <string name="smallest">Smallest</string>
+    <string name="largest">Largest</string>
+    <string name="az">A-Z</string>
+    <string name="za">Z-A</string>
+    <string name="view_in_your_space">View in your space</string>
+    <string name="created_on">Created on:</string>
+    <string name="size">Size: </string>
+    <string name="download">Download</string>
+    <string name="delete_model">Delete Model</string>
+    <string name="close">Close</string>
+    <string name="confirm">Confirm</string>
+    <string name="create_new_repository">Create new repository</string>
+    <string name="repository_name">Repository Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="access">Access</string>
+    <string name="repo_public">Public</string>
+    <string name="repo_private">Private</string>
+    <string name="save">Save</string>
+    <string name="directory_name">Directory Name</string>
+    <string name="project_name">Project Name</string>
+    <string name="board_name">Board Name</string>
+    <string name="file_name">File Name</string>
+    <string name="enter_file_name">Enter file Name</string>
+    <string name="remove_file">Remove file</string>
+    <string name="edit_file">Edit file</string>
+    <string name="edit_cad_info">Edit CAD Info</string>
+    <string name="an_otp_has_been_sent_to_phone">An OTP has been sent to your phone number</string>
+    <string name="reset_link_sent_to_email">Reset Link Sent to Email Successfully</string>
+    <string name="register_success">Register Success</string>
+    <string name="rename_success">Rename Success</string>
+    <string name="link_copied_to_clipboard">Link copied to clipboard</string>
+    <string name="text_copied">Text Copied</string>
+    <string name="new_password_not_match">New password not match repeat password</string>
+    <string name="update_successfully">Update successfully</string>
+    <string name="create_board_successfully">Create board successfully</string>
+    <string name="delete_board_successfully">Delete board successfully</string>
+    <string name="create_file_successfully">Create file successfully</string>
+    <string name="approval_pending">Approval Pending!</string>
+    <string name="user_registration_was_successful">User registration was successful. \nAwaiting admin approval for access.</string>
+    <string name="select_a_model">Select a model</string>
+    <string name="create_new_project">Create new project</string>
+    <string name="create_new_board">Create new board</string>
+    <string name="str_defect_detection" translatable="false">Defect detection</string>
+    <string name="str_trained_models" translatable="false">Trained models</string>
+    <string name="str_delete_frame" translatable="false">Yes, Delete Frame</string>
+    <string name="str_delete_frame_sure" translatable="false">Are you sure you want to \ndelete this frame?</string>
+    <string name="str_add_to_retrain" translatable="false">Add to Retrain</string>
+    <string name="str_annotate" translatable="false">Annotate</string>
+    <string name="str_processing_image" translatable="false">Processing the image data to retrain</string>
+    <string name="str_retrain_success" translatable="false">Model training is in process. We will notify you, once it is done.</string>
+    <string name="str_go_home" translatable="false">Go to Home</string>
+    <string name="str_workout" translatable="false">Workout</string>
+    <string name="str_exercise_stats" translatable="false">Exercise Stats</string>
+    <string name="sort">Sort</string>
+    <string name="body_measurement">Body Measurement</string>
+    <string name="weight">Weight</string>
+    <string name="bmi">BMI</string>
+    <string name="height">Height</string>
+    <string name="chest">Chest</string>
+    <string name="arm_span">Arm span</string>
+    <string name="waist">Waist</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="hips">Hips</string>
+    <string name="head">Head</string>
+    <string name="torso">Torso</string>
+    <string name="leg">Leg</string>
+    <string name="workout">Workout</string>
+    <string name="str_category_name" translatable="false">Category Name</string>
+    <string name="str_upload" translatable="false">Upload</string>
+    <string name="str_models" translatable="false">Models</string>
+    <string name="str_choose_image" translatable="false">Please choose image</string>
+    <string name="str_add_new_category" translatable="false"><u>Do you want add new category?</u></string>
+    <string name="str_annotate_all_images" translatable="false">Please annotate all images</string>
+    <string name="str_select" translatable="false">Select</string>
+    <string name="str_delete" translatable="false">Delete</string>
+    <string name="str_video_exist" translatable="false">Video not exists</string>
+    <string name="str_title_no_defect" translatable="false">No Defects Detected</string>
+    <string name="str_description_no_defect" translatable="false">No defects were discovered during the test</string>
+    <string name="str_title_defect" translatable="false">Defects Detected</string>
+    <string name="str_description_defect" translatable="false">Defects were discovered during the test \n Do you want to view the result?</string>
+    <string name="str_show_result" translatable="false">Show Results</string>
+    <string name="str_kcal" translatable="false">kcal</string>
+    <string name="str_reps" translatable="false">reps</string>
+    <string name="str_no_test_result" translatable="false">No test results found</string>
+    <string name="str_start_test" translatable="false">Start Test</string>
+    <string name="str_test_model" translatable="false">Test Model</string>
+    <string name="str_run_test" translatable="false">Uploaded Successfully. We\'ll notify you once results are prepared</string>
+    <string name="str_no_not_defect" translatable="false">No not defected results found</string>
+    <string name="str_processing_image_test" translatable="false">Processing the image data to test detection</string>
+    <string name="str_retrain" translatable="false">Retrain</string>
+    <string name="str_no_defect" translatable="false">No defected results found</string>
+    <string name="str_nodefect_paths_no_bb" translatable="false">No defect paths no bb results found</string>
+
+    <!--COMMON-->
+    <string name="common_continue" translatable="false">Continue</string>
+    <string name="common_email_address" translatable="false">Email Address</string>
+    <string name="common_password" translatable="false">Password</string>
+    <string name="common_user" translatable="false">User</string>
+    <string name="common_admin" translatable="false">Admin</string>
+    <string name="common_organization_name" translatable="false">Organization Name</string>
+    <string name="common_file_size_mb" translatable="false">%s MB</string>
+    <string name="common_progress" translatable="false">%s%%</string>
+    <string name="common_individual_account" translatable="false">Individual account</string>
+    <string name="common_business_account" translatable="false">Business account</string>
+    <string name="common_add_organization" translatable="false">Add an organization</string>
+    <string name="common_join_organization" translatable="false">Join an organization</string>
+    <string name="common_need_help" translatable="false">Need help? Reach out to <u>hello@luxolis.ai</u></string>
+    <string name="common_check_spam" translatable="false">If you don’t get the email soon, check your spam folder</string>
+    <string name="common_media_permission" translatable="false">Media permission is not Granted. Please add permission to media</string>
+    <string name="common_mail_to" translatable="false">mailto: hello@luxolis.ai</string>
+    <string name="common_luxolis" translatable="false">LUXOLIS</string>
+    <string name="common_back_to_login" translatable="false">Back to Login</string>
+    <!--WELCOME_SCREEN-->
+    <string name="welcome_screen_title" translatable="false">Luxolis 3D Scanner</string>
+    <string name="welcome_screen_subtitle" translatable="false">Capture, share, and collaborate in 3D</string>
+    <string name="welcome_screen_title_step_1" translatable="false">Scan a Scene</string>
+    <string name="welcome_screen_subtitle_step_1" translatable="false">Capture any environment in a matter of minutes</string>
+    <string name="welcome_screen_title_step_2" translatable="false">Collaborate Remotely</string>
+    <string name="welcome_screen_subtitle_step_2" translatable="false">Work in tandem with colleagues through our web application</string>
+    <string name="welcome_screen_title_step_3" translatable="false">Export Anywhere</string>
+    <string name="welcome_screen_subtitle_step_3" translatable="false">Use your 3D models in the CAD software of your choice</string>
+    <string name="welcome_screen_sign_up" translatable="false">Sign up</string>
+    <string name="welcome_screen_log_in" translatable="false">Log in</string>
+    <!--LOG_IN_SCREEN-->
+    <string name="log_in_screen_log_in" translatable="false">Log in</string>
+    <string name="log_in_screen_forgot_password" translatable="false">Forgot Password?</string>
+    <string name="log_in_screen_title" translatable="false">Enter your email and password below to begin scanning</string>
+    <string name="log_in_screen_dont_have_account" translatable="false">Don’t have an account? Sign Up</string>
+    <string name="log_in_screen_incorrect_credentials" translatable="false">Incorrect credentials</string>
+    <string name="log_in_screen_add_organization" translatable="false">Add an Organization</string>
+    <string name="log_in_screen_join_organization" translatable="false">Join an Organization</string>
+    <string name="log_in_screen_welcome" translatable="false">Welcome to OpenAir</string>
+    <string name="log_in_screen_select_account" translatable="false">Please select the account you would like to access</string>
+    <!--FORGOT_PASSWORD_SCREEN-->
+    <string name="forgot_password_screen_password_recovery" translatable="false">Password Recovery</string>
+    <string name="forgot_password_screen_reset_password" translatable="false">Reset Password</string>
+    <string name="forgot_password_screen_we_sent_email" translatable="false">We sent an email to %s with a link to reset your password</string>
+    <string name="forgot_password_screen_recovery_subtitle" translatable="false">Enter your email and we will send you a link to reset your password</string>
+    <string name="forgot_password_screen_check_your_email" translatable="false">Check your Email</string>
+    <string name="forgot_password_screen_back_to_login" translatable="false">Back to Login</string>
+    <!--SET_PASSWORD_SCREEN-->
+    <string name="set_password_screen_title" translatable="false">Set your Password</string>
+    <string name="set_password_screen_new_password" translatable="false">New Password</string>
+    <string name="set_password_screen_subtitle" translatable="false">Make sure your password is unique and only known to you</string>
+    <string name="set_password_screen_password_must_contain" translatable="false">Password must contain</string>
+    <string name="set_password_screen_at_least_characters" translatable="false">At least 8 characters</string>
+    <string name="set_password_screen_special_character" translatable="false">1 special character</string>
+    <string name="set_password_screen_number" translatable="false">1 number</string>
+    <string name="set_password_screen_uppercase" translatable="false">1 uppercase letter</string>
+    <string name="set_password_confirm_password" translatable="false">Confirm Password</string>
+    <!--PASSWORD_CONFIRMED_SCREEN-->
+    <string name="password_confirmed_screen_title" translatable="false">Password Confirmed</string>
+    <string name="password_confirmed_screen_subtitle" translatable="false">Your password has been updated</string>
+    <string name="password_confirmed_back_to_login" translatable="false">Back to login</string>
+    <!--REGISTRATION_EMAIL_SCREEN-->
+    <string name="registration_email_screen_title" translatable="false">Sign up</string>
+    <string name="registration_email_screen_subtitle" translatable="false">Create your account today to create your own accurate 3D models</string>
+    <string name="registration_email_screen_have_account" translatable="false">Have an account? <u>Log in</u></string>
+    <string name="registration_email_screen_first_name" translatable="false">First name</string>
+    <string name="registration_email_screen_last_name" translatable="false">Last name</string>
+    <string name="registration_email_screen_agree" translatable="false">By signing up, you agree to our</string>
+    <string name="registration_email_screen_terms_of_service" translatable="false"><u>Terms of Service</u></string>
+    <string name="registration_email_screen_and" translatable="false">and</string>
+    <string name="registration_email_screen_privacy_policy" translatable="false"><u>Privacy Policy</u></string>
+    <!--REGISTRATION_PASSWORD_SCREEN-->
+    <string name="registration_password_screen_title" translatable="false">Choose a Password</string>
+    <string name="registration_password_screen_subtitle" translatable="false">Make sure your password is unique and only known by you</string>
+    <string name="registration_password_screen_hint" translatable="false">Create a Password</string>
+    <!--SUCCESS_REGISTRATION_SCREEN-->
+    <string name="success_registration_screen_add_organization_title" translatable="false">Your Organization has been Successfully Added</string>
+    <string name="success_registration_screen_add_organization_subtitle" translatable="false">%s has been successfully created. You will receive a receipt by email</string>
+    <string name="success_registration_screen_join_organization_title" translatable="false">Your Request to Join has Been Successfully Sent</string>
+    <string name="success_registration_screen_join_organization_subtitle" translatable="false">The administrator from %s has been sent your request. You will receive an email when the administrator responds</string>
+    <string name="success_registration_screen_created_account_title" translatable="false">You have Successfully Created your Account</string>
+    <string name="success_registration_screen_created_account_subtitle" translatable="false">You have been sent a confirmation email</string>
+    <string name="success_registration_screen_continue" translatable="false">Continue to Dashboard</string>
+    <!--JOIN_ORGANIZATION_SCREEN-->
+    <string name="join_organization_screen_title" translatable="false">Join an Organization</string>
+    <string name="join_organization_screen_subtitle" translatable="false">Request access to a preexisting organization</string>
+    <string name="join_organization_screen_role_requested" translatable="false">Role Requested</string>
+    <string name="join_organization_screen_message" translatable="false">Short message (optional)</string>
+    <string name="join_organization_screen_cant_find" translatable="false">Can’t find the organization?</string>
+    <string name="join_organization_screen_no_business_found" translatable="false">No business found</string>
+    <!--ADD_ORGANIZATION_SCREEN-->
+    <string name="add_organization_screen_title" translatable="false">Add an Organization</string>
+    <string name="add_organization_screen_subtitle" translatable="false">Enter your organization information below</string>
+    <string name="add_organization_screen_upload_logo" translatable="false">Upload Logo</string>
+    <string name="add_organization_screen_choose_file" translatable="false">Choose File</string>
+    <string name="add_organization_screen_file_params_size" translatable="false">Max file size 100MB</string>
+    <string name="add_organization_screen_file_params_pixels" translatable="false">48 pixels X 48 pixels</string>
+    <string name="add_organization_screen_file_params_format" translatable="false">PNG, JPG</string>
+    <string name="add_organization_screen_size_error" translatable="false">The logo is too big</string>
+    <string name="add_organization_screen_name_error" translatable="false">Please enter a name with 3 or more characters</string>
+    <string name="add_organization_screen_try_another_name" translatable="false">Try another name</string>
+    <string name="add_organization_screen_name_error_title" translatable="false">The organization name %s is already in use</string>
+    <string name="add_organization_screen_name_error_subtitle" translatable="false">Request to join %s or enter a unique organization name</string>
+    <!--SELECT_ACCOUNT_TYPE_SCREEN-->
+    <string name="select_account_type_screen_title" translatable="false">Select an Account Type</string>
+    <string name="select_account_type_screen_subtitle" translatable="false">Choose between an individual account for personal use or a business account to collaborate with your team</string>
+    <string name="select_account_type_screen_individual_subtitle" translatable="false">For personal projects that do not require team collaboration tools</string>
+    <string name="select_account_type_screen_business_subtitle" translatable="false">For team projects with collaboration tools. If the business you work for has an account, select Join an Organization</string>
+    <!--CHECK_EMAIL_SCREEN-->
+    <string name="check_email_screen_title" translatable="false">Check your Email</string>
+    <string name="check_email_screen_subtitle" translatable="false">We sent an email to %s with a link to verify your account</string>
+    <string name="check_email_screen_resend_link" translatable="false">Resend Link</string>
+    <!--WELCOME_OPEN_AIR_SCREEN-->
+    <string name="welcome_open_air_screen_title" translatable="false">Welcome to OpenAir</string>
+    <string name="welcome_open_air_screen_subtitle" translatable="false">Please select the account you would like to access</string>
+    <!--POLICY_SCREEN-->
+    <string name="policy_screen_terms_of_service" translatable="false">Terms of Service</string>
+    <string name="policy_screen_privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="policy_screen_section" translatable="false">%d. %s</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_blue_pink_14"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="16dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvSubscriptionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:text="Start - Free"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                app:textfont="@string/Gilroy_Medium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_type_sub"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="0dp"
+                android:includeFontPadding="false"
+                android:text="$"
+                android:gravity="top"
+                android:layout_gravity="top"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:textfont="@string/Gilroy_SemiBold" />
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:includeFontPadding="false"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="32dp"
+                app:textfont="@string/Gilroy_SemiBold" />
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:includeFontPadding="false"
+                android:text="/month"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                app:textfont="@string/Gilroy_Medium" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:includeFontPadding="false"
+                android:text="Get started with OpenAir"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:layout_weight="1"
+                app:textfont="@string/Gilroy_Regular"
+                android:visibility="invisible"/>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvStorage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:includeFontPadding="false"
+                android:text="500 MB*"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:textfont="@string/Gilroy_SemiBold" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

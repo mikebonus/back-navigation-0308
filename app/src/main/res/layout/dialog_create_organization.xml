@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@drawable/bg_gradient_12"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="50dp">
+            <LinearLayout
+                android:id="@+id/lnCreateNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/radioCreateNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:clickable="false"
+                    android:buttonTint="@color/blue3" />
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/str_create_new"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:visibility="visible"
+                    app:textfont="@string/Gilroy_Regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnJoinExisting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/radioJoinExist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:buttonTint="@color/white"
+                    android:clickable="false"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/str_join_existing"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:visibility="visible"
+                    app:textfont="@string/Gilroy_Regular" />
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_create_new_organization"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                android:layout_marginBottom="12dp"
+                app:textfont="@string/Gilroy_Regular" />
+
+            <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                android:id="@+id/edtOrganizationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent_stroke_white_8"
+                android:gravity="center_vertical"
+                android:hint="@string/str_enter_organization_name"
+                android:padding="13dp"
+                android:scrollbars="none"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/white65"
+                android:textColorHint="@color/white65"
+                android:textSize="16sp"
+                app:textfont="@string/Gilroy_Regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:id="@+id/buttonPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="26dp">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/btCancel"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="@string/cancel"
+                android:layout_marginEnd="40dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                app:textfont="@string/Gilroy_SemiBold"/>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/btCreate"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:layout_gravity="right"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/bg_blue_24"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="@string/str_create"
+                android:textAllCaps="false"
+                app:textfont="@string/Gilroy_SemiBold"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

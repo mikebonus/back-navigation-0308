@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/view_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="6dp"
+    android:background="@android:color/transparent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:background="@android:color/transparent"
+        android:id="@+id/iv_image"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:shapeAppearanceOverlay="@style/rounded_corner"
+        android:src="@drawable/ic_model_scan"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        style="@style/rounded_corner"
+        android:background="#33000000">
+        <CheckBox
+            android:id="@+id/ckbAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ckb_accept"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:checked="false"
+            android:gravity="center_vertical" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|bottom"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvModelName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:text=""
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:textfont="@string/Gilroy_Medium"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="0dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            app:textfont="@string/Gilroy_Regular"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

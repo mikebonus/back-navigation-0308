@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "128737311139",
+    "firebase_url": "https://open-air-3d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "open-air-3d",
+    "storage_bucket": "open-air-3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128737311139:android:4a73dbe48b07f53bca8216",
+        "android_client_info": {
+          "package_name": "com.luxpmsoft.luxaipoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128737311139-5giaop1qpo807jto896791hi3urd342k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luxpmsoft.luxaipoc",
+            "certificate_hash": "d58898f0fc348829603348a8ef417c60f815a240"
+          }
+        },
+        {
+          "client_id": "128737311139-7hed5tdu3ohctqv1segnvg2i0ps23skf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luxpmsoft.luxaipoc",
+            "certificate_hash": "e64ea2796d6dd23ac005704cccf4a28b4d96cd56"
+          }
+        },
+        {
+          "client_id": "128737311139-r7r8kplehv4tuf2e59t79i965321j7i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luxpmsoft.luxaipoc",
+            "certificate_hash": "2c76538805afaea478a08a07307205a47ea13f0a"
+          }
+        },
+        {
+          "client_id": "128737311139-4nn7o0eelugv3l29etld9mkvittcd0kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnR-Ii4CzWCh5RyFTm0PT1yg2uB7A5Aqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128737311139-4nn7o0eelugv3l29etld9mkvittcd0kl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "128737311139-4ilpdv17s4qnmina7jg9622feq8pvnia.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.luxpmsoft.luxaipoc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128737311139:android:d2726e1149ffa827ca8216",
+        "android_client_info": {
+          "package_name": "com.luxpmsoft.luxaipoc.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128737311139-fc758brj9smeodqbah98smue8k3hfbr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luxpmsoft.luxaipoc.dev",
+            "certificate_hash": "2c76538805afaea478a08a07307205a47ea13f0a"
+          }
+        },
+        {
+          "client_id": "128737311139-k7eptsgp69vkj8e3su0cas3oh6qoenjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luxpmsoft.luxaipoc.dev",
+            "certificate_hash": "e64ea2796d6dd23ac005704cccf4a28b4d96cd56"
+          }
+        },
+        {
+          "client_id": "128737311139-rdn6rdaoq0k8a3k1gh9gf102b8qhi2hc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luxpmsoft.luxaipoc.dev",
+            "certificate_hash": "d58898f0fc348829603348a8ef417c60f815a240"
+          }
+        },
+        {
+          "client_id": "128737311139-4nn7o0eelugv3l29etld9mkvittcd0kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnR-Ii4CzWCh5RyFTm0PT1yg2uB7A5Aqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128737311139-4nn7o0eelugv3l29etld9mkvittcd0kl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "128737311139-4ilpdv17s4qnmina7jg9622feq8pvnia.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.luxpmsoft.luxaipoc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="def_shadow_radius">5dp</dimen>
+    <dimen name="def_corner_radius">5dp</dimen>
+    <dimen name="size_26">26dp</dimen>
+    <dimen name="size_180">180dp</dimen>
+    <dimen name="size_200">200dp</dimen>
+    <dimen name="size_120">120dp</dimen>
+</resources>

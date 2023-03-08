@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/icBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back_grey" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_blue_4"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="00:00"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_capture">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="30dp">
+
+            <ImageView
+                android:id="@+id/imgAfter"
+                android:layout_width="66dp"
+                android:layout_height="70dp"
+                android:src="@drawable/img_d"
+                android:visibility="gone"/>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imv_preview"
+                    android:layout_width="52dp"
+                    android:layout_height="56dp"
+                    android:padding="3dp"
+                    android:scaleType="centerCrop"
+                    android:cropToPadding="true"
+                    android:visibility="invisible"
+                    android:background="@drawable/bg_stroke_4_2_black"/>
+
+                <TextView
+                    android:id="@+id/tvNumberImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="invisible"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/buttonRecordVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="25dp"
+            android:src="@drawable/ic_camera1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/ic_note"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/notice"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</FrameLayout>

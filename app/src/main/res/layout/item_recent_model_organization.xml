@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/bg_gradient_green_black_12">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/iv_image"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:src="@drawable/ic_model_scan"
+            app:shapeAppearanceOverlay="@style/rounded_corner" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginEnd="14dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.33"
+                android:paddingStart="10dp">
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="0dp"
+                    android:text="Model name"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    app:textfont="@string/Gilroy_Medium"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="0dp"
+                    android:text="5:00 pm, Apr 5, 2022"
+                    android:textColor="@color/white75"
+                    android:textSize="11dp"
+                    android:layout_marginBottom="10dp"
+                    app:textfont="@string/Gilroy_Regular"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.67">
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvEnhanced"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:lineSpacingExtra="0dp"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:textColor="@color/white75"
+                    android:textSize="11dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:layout_marginTop="5dp"
+                    app:textfont="@string/Gilroy_Regular"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:lineSpacingExtra="0dp"
+                    android:text="Size: 0 MB"
+                    android:layout_weight="1"
+                    android:textColor="@color/white75"
+                    android:textSize="11dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:layout_marginTop="5dp"
+                    app:textfont="@string/Gilroy_Regular"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

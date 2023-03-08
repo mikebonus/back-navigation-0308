@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gradient_6">
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvManageUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_users"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            app:textfont="@string/Gilroy_Regular"
+            android:visibility="gone"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvEditRepository"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_edit_repository"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            app:textfont="@string/Gilroy_Regular"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvDeleteRepository"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_delete_repository"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            app:textfont="@string/Gilroy_Regular"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
