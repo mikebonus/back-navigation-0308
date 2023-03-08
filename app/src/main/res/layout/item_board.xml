@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/bg_blue_pink_16">
+
+        <CheckBox
+            android:id="@+id/ckbChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ckb_accept"
+            android:layout_marginEnd="5dp"
+            android:checked="false"
+            android:clickable="false"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:visibility="gone"/>
+
+        <RadioButton
+            android:id="@+id/rdEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:buttonTint="@color/white"
+            android:clickable="false"
+            android:enabled="false"
+            android:visibility="gone"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/iv_image"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:src="@drawable/ic_empty"
+            app:shapeAppearanceOverlay="@style/rounded_corner" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginEnd="14dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.31"
+                android:paddingStart="10dp">
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvFileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="0dp"
+                    android:text=""
+                    android:layout_weight="0.3"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:ellipsize="end"
+                    app:textfont="@string/Gilroy_Medium"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="0dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_weight="0.3"
+                    android:maxLines="1"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:ellipsize="end"
+                    app:textfont="@string/Gilroy_Medium"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="bottom"
+                    android:layout_weight="0.4">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_comment1"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvTotalComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingStart="2dp"
+                        android:lineSpacingExtra="0dp"
+                        android:text="0 Comments"
+                        android:textColor="@color/white75"
+                        android:textSize="11dp"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.69">
+
+                <ImageView
+                    android:id="@+id/icMore"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_three_dot"
+                    android:visibility="gone"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:lineSpacingExtra="0dp"
+                    android:text="Apr 20, 2022"
+                    android:layout_weight="1"
+                    android:textColor="@color/white75"
+                    android:textSize="11dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="right|bottom"
+                    app:textfont="@string/Gilroy_Medium"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:visibility="gone">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgAvatar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="gone"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/user"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgAvatar1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="gone"
+                        android:layout_marginStart="22dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/user"/>
+
+                    <FrameLayout
+                        android:id="@+id/flTotalUser"
+                        android:layout_width="24dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="45dp"
+                        android:visibility="gone"
+                        android:background="@drawable/ic_user4">
+
+                        <TextView
+                            android:id="@+id/tvTotalUser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="+1"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+
+                </FrameLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:layout_marginStart="22dp"
+    android:layout_marginEnd="22dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_tabar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lnHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/icHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/ic_home"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/icHomeActive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_active"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/ic_2"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/ic2Active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_active"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnScan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_scan_center"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnNotification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="13dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/icNotification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_notification"
+                        android:visibility="visible"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvFileName"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:includeFontPadding="false"
+                        android:lineSpacingExtra="0dp"
+                        android:text="0"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_circle_orange"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        app:textfont="@string/Gilroy_SemiBold"
+                        android:visibility="gone"/>
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/icNotificationActive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_active"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnMembers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/ic_user1"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/icMemberActive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_active"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

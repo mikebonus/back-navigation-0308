@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/view_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="6dp"
+    android:background="@android:color/transparent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:background="@android:color/transparent"
+        android:id="@+id/image"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:shapeAppearanceOverlay="@style/rounded_corner"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineCheck"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        style="@style/rounded_corner"
+        android:background="#33000000"
+        android:visibility="gone"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/ckbSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ckb_accept"
+            android:checked="false"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lineDelete"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/rounded_corner"
+        android:background="#33000000"
+        android:visibility="gone">
+        <CheckBox
+            android:id="@+id/ckbDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ckb_accept"
+            android:checked="false"
+            android:gravity="center_vertical" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

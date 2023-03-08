@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_gradient"
+    android:visibility="visible">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bg1"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg4"
+        android:layout_marginStart="20dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/profile"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/lnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/icBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_back_bgrey" />
+
+                <LinearLayout
+                    android:id="@+id/lineLocale"
+                    android:layout_width="93dp"
+                    android:layout_height="27dp"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"
+                    android:background="@drawable/bg_stroke_10_white">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvChooseLocale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/english"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:src="@drawable/ic_arrown_up"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/icRepositories"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:text="@string/str_account_settings"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="16dp"
+                app:textfont="@string/Gilroy_Regular" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="24dp"
+                        android:gravity="center">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@id/avatar"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:visibility="visible"
+                                android:layout_marginEnd="8dp"
+                                android:src="@drawable/user"
+                                android:layout_marginTop="5dp"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/icEdit"
+                                android:src="@drawable/ic_edit"
+                                android:layout_gravity="right"/>
+                        </FrameLayout>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="22dp">
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvUsername"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/icRepositories"
+                                android:gravity="center_vertical"
+                                android:lineSpacingExtra="0dp"
+                                android:text=""
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:layout_marginBottom="8dp"
+                                app:textfont="@string/Gilroy_SemiBold" />
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvSubType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:gravity="center"
+                                android:lineSpacingExtra="0dp"
+                                android:text="@string/str_premium"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:background="@drawable/bg_sub_plan"
+                                app:textfont="@string/Gilroy_SemiBold" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="18dp"
+                        android:background="@drawable/bg_purple_12"
+                        android:layout_marginBottom="18dp">
+
+                        <RelativeLayout
+                            android:id="@+id/lineViewDisplay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginBottom="20dp">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toStartOf="@+id/tvEditName"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text="@string/str_display_name"
+                                    android:textColor="@color/white55"
+                                    android:textSize="13sp"
+                                    app:textfont="@string/Gilroy_Medium" />
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:maxLines="1"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    app:textfont="@string/Gilroy_Regular" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvEditName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_white_4"
+                                android:gravity="center"
+                                android:lineSpacingExtra="0dp"
+                                android:paddingStart="16dp"
+                                android:paddingTop="6dp"
+                                android:paddingEnd="16dp"
+                                android:paddingBottom="6dp"
+                                android:text="@string/edit"
+                                android:textColor="@color/white"
+                                android:textSize="13sp"
+                                app:textfont="@string/Gilroy_Medium" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/lineEditDisplay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginBottom="20dp"
+                            android:visibility="gone">
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvDisplay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:gravity="center_vertical"
+                                android:lineSpacingExtra="0dp"
+                                android:text="@string/str_display_name"
+                                android:textColor="@color/white55"
+                                android:textSize="13sp"
+                                app:textfont="@string/Gilroy_Medium" />
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvDisplay"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                                        android:id="@+id/edtFirstName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginEnd="15dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/bg_white_4"
+                                        android:gravity="center_vertical"
+                                        android:hint="@string/name"
+                                        android:maxLength="17"
+                                        android:padding="8dp"
+                                        android:scrollbars="none"
+                                        android:singleLine="true"
+                                        android:text=""
+                                        android:textColor="@color/white"
+                                        android:textColorHint="@color/c_grey"
+                                        android:textSize="15sp"
+                                        app:textfont="@string/Gilroy_Regular" />
+
+                                    <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                                        android:id="@+id/edtLastName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="15dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/bg_white_4"
+                                        android:gravity="center_vertical"
+                                        android:hint="@string/lastname"
+                                        android:maxLength="45"
+                                        android:padding="8dp"
+                                        android:scrollbars="none"
+                                        android:singleLine="true"
+                                        android:text=""
+                                        android:textColor="@color/white"
+                                        android:textColorHint="@color/c_grey"
+                                        android:textSize="15sp"
+                                        android:visibility="gone"
+                                        app:textfont="@string/Gilroy_Regular" />
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvChangeName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:background="@drawable/bg_purple1_12"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="0dp"
+                                    android:paddingStart="12dp"
+                                    android:paddingTop="6dp"
+                                    android:paddingEnd="12dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="@string/change"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    app:textfont="@string/Gilroy_Medium" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+                        </RelativeLayout>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:id="@+id/lineOrganization"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginBottom="20dp">
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical">
+
+                                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="8dp"
+                                        android:gravity="center_vertical"
+                                        android:lineSpacingExtra="0dp"
+                                        android:text="@string/organisation"
+                                        android:textColor="@color/white55"
+                                        android:textSize="13sp"
+                                        app:textfont="@string/Gilroy_Regular" />
+
+                                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                        android:id="@+id/tvOrganization"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical"
+                                        android:lineSpacingExtra="0dp"
+                                        android:text=""
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        app:textfont="@string/Gilroy_Regular" />
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/rlReference"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginBottom="20dp">
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toStartOf="@+id/tvCopy"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical">
+
+                                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="8dp"
+                                        android:gravity="center_vertical"
+                                        android:lineSpacingExtra="0dp"
+                                        android:text="@string/organisation_reference_id"
+                                        android:textColor="@color/white55"
+                                        android:textSize="13sp"
+                                        app:textfont="@string/Gilroy_Regular" />
+
+                                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                        android:id="@+id/tvOrganisationReference"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical"
+                                        android:lineSpacingExtra="0dp"
+                                        android:text=""
+                                        android:maxLines="1"
+                                        android:ellipsize="end"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        app:textfont="@string/Gilroy_Regular" />
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvCopy"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:background="@drawable/bg_white_4"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="0dp"
+                                    android:paddingStart="16dp"
+                                    android:paddingTop="6dp"
+                                    android:paddingEnd="16dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="@string/copy"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    android:visibility="visible"
+                                    app:textfont="@string/Gilroy_Regular" />
+                            </RelativeLayout>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginBottom="20dp">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text="@string/email"
+                                    android:textColor="@color/white55"
+                                    android:textSize="13sp"
+                                    app:textfont="@string/Gilroy_Regular" />
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvEmail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    app:textfont="@string/Gilroy_Regular" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvEditEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_white_4"
+                                android:gravity="center"
+                                android:lineSpacingExtra="0dp"
+                                android:paddingStart="16dp"
+                                android:paddingTop="6dp"
+                                android:paddingEnd="16dp"
+                                android:paddingBottom="6dp"
+                                android:text="@string/edit"
+                                android:visibility="invisible"
+                                android:textColor="@color/white"
+                                android:textSize="13sp"
+                                app:textfont="@string/Gilroy_Regular" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/lineViewPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text="@string/password"
+                                    android:textColor="@color/white55"
+                                    android:textSize="13dp"
+                                    app:textfont="@string/Gilroy_Regular" />
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/ic_ellipse" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/ic_ellipse" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/ic_ellipse" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/ic_ellipse" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/ic_ellipse" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/ic_ellipse" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_ellipse" />
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvEditPassword"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_white_4"
+                                android:gravity="center"
+                                android:lineSpacingExtra="0dp"
+                                android:paddingStart="16dp"
+                                android:paddingTop="6dp"
+                                android:paddingEnd="16dp"
+                                android:paddingBottom="6dp"
+                                android:text="@string/change"
+                                android:textColor="@color/white"
+                                android:textSize="13sp"
+                                app:textfont="@string/Gilroy_Medium" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/lineEditPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginBottom="20dp"
+                            android:visibility="gone">
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvPassword"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:gravity="center_vertical"
+                                android:lineSpacingExtra="0dp"
+                                android:text="@string/password"
+                                android:textColor="@color/white55"
+                                android:textSize="13sp"
+                                app:textfont="@string/Gilroy_Medium" />
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvPassword"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="35dp"
+                                        android:layout_marginEnd="25dp"
+                                        android:layout_marginBottom="6dp"
+                                        android:background="@drawable/bg_white_4"
+                                        android:hint=""
+                                        app:hintEnabled="false"
+                                        app:passwordToggleEnabled="true"
+                                        app:passwordToggleTint="@color/c_grey">
+
+                                        <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                                            android:id="@+id/edtCurrentPassword"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:gravity="center_vertical"
+                                            android:hint="@string/current_password"
+                                            android:inputType="textPassword"
+                                            android:paddingStart="5dp"
+                                            android:scrollbars="none"
+                                            android:singleLine="true"
+                                            android:textColor="@color/c_grey"
+                                            android:textColorHint="@color/c_grey"
+                                            android:textSize="15sp"
+                                            app:textfont="@string/Gilroy_Regular" />
+
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="35dp"
+                                        android:layout_marginEnd="25dp"
+                                        android:layout_marginBottom="6dp"
+                                        android:background="@drawable/bg_white_4"
+                                        android:hint=""
+                                        app:hintEnabled="false"
+                                        app:passwordToggleEnabled="true"
+                                        app:passwordToggleTint="@color/c_grey">
+
+                                        <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                                            android:id="@+id/edtNewPassword"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:gravity="center_vertical"
+                                            android:hint="@string/new_password"
+                                            android:inputType="textPassword"
+                                            android:paddingStart="5dp"
+                                            android:scrollbars="none"
+                                            android:singleLine="true"
+                                            android:textColor="@color/c_grey"
+                                            android:textColorHint="@color/c_grey"
+                                            android:textSize="16sp"
+                                            app:textfont="@string/Gilroy_Regular" />
+
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="35dp"
+                                        android:layout_marginEnd="25dp"
+                                        android:background="@drawable/bg_white_4"
+                                        android:hint=""
+                                        app:hintEnabled="false"
+                                        app:passwordToggleEnabled="true"
+                                        app:passwordToggleTint="@color/c_grey">
+
+                                        <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                                            android:id="@+id/edtRepeatPassword"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:gravity="center_vertical"
+                                            android:hint="@string/repeat_password"
+                                            android:inputType="textPassword"
+                                            android:paddingStart="5dp"
+                                            android:scrollbars="none"
+                                            android:singleLine="true"
+                                            android:textColor="@color/c_grey"
+                                            android:textColorHint="@color/c_grey"
+                                            android:textSize="16sp"
+                                            app:textfont="@string/Gilroy_Regular" />
+
+                                    </com.google.android.material.textfield.TextInputLayout>
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvChangePassword"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:background="@drawable/bg_purple1_12"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="0dp"
+                                    android:paddingStart="12dp"
+                                    android:paddingTop="6dp"
+                                    android:paddingEnd="12dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="@string/change"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    app:textfont="@string/Gilroy_Medium" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        </RelativeLayout>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/bg_purple_12"
+                        android:layout_marginBottom="26dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:padding="18dp">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text="@string/str_sub_plan"
+                                    android:textColor="@color/white55"
+                                    android:textSize="13dp"
+                                    app:textfont="@string/Gilroy_Regular" />
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvSubType1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="16dp"
+                                    app:textfont="@string/Gilroy_Regular" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvUpgrade"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_gradient_orange_purple_4"
+                                android:gravity="center"
+                                android:lineSpacingExtra="0dp"
+                                android:paddingStart="16dp"
+                                android:paddingTop="6dp"
+                                android:paddingEnd="16dp"
+                                android:paddingBottom="6dp"
+                                android:text="@string/str_upgrade"
+                                android:textColor="@color/white"
+                                android:textSize="13dp"
+                                android:visibility="gone"
+                                app:textfont="@string/Gilroy_Medium" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:paddingStart="18dp"
+                            android:paddingEnd="18dp"
+                            android:layout_marginBottom="20dp">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvExpiryDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:text="@string/expiring_on"
+                                    android:textColor="@color/white"
+                                    android:textSize="16dp"
+                                    app:textfont="@string/Gilroy_Regular" />
+
+                                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                    android:id="@+id/tvDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="0dp"
+                                    android:paddingEnd="5dp"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="16dp"
+                                    android:visibility="visible"
+                                    app:textfont="@string/Gilroy_SemiBold" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+                        </RelativeLayout>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:background="@drawable/bg_grey_circle_bottom_12">
+
+                            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                                android:id="@+id/tvRenew"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:lineSpacingExtra="0dp"
+                                android:text="@string/renewal_due_on"
+                                android:textColor="@color/white"
+                                android:textSize="14dp"
+                                app:textfont="@string/Gilroy_Medium"
+                                android:layout_marginEnd="10dp"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_back_right"
+                                android:visibility="gone"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvSignOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bg_white_4"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:lineSpacingExtra="0dp"
+                        android:paddingStart="16dp"
+                        android:paddingTop="6dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="6dp"
+                        android:text="@string/str_sign_out"
+                        android:textColor="@color/white"
+                        android:textSize="13dp"
+                        android:layout_marginBottom="10dp"
+                        app:textfont="@string/Gilroy_Medium" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/flProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bg_gradient">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+
+    <com.luxpmsoft.luxaipoc.widget.FooterMenu
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="bottom"
+        android:visibility="gone"/>
+</FrameLayout>

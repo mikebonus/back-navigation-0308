@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_gradient">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_home1"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg4"
+        android:layout_marginStart="20dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/lnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/icBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_close" />
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvAddUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/add_user"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right|center"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/bg_white_4"
+                    android:gravity="center"
+                    android:lineSpacingExtra="0dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/save"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                    app:textfont="@string/Gilroy_Medium" />
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_search1"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_search"
+                    android:layout_marginEnd="10dp"/>
+
+                <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                    android:id="@+id/edtSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:hint="@string/search_user"
+                    android:scrollbars="none"
+                    android:singleLine="true"
+                    android:textSize="18dp"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColorHint="@color/white55"
+                    android:background="@null"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    app:textfont="@string/Gilroy_SemiBold"/>
+
+                <ImageView
+                    android:id="@+id/icClear"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_clear"
+                    android:visibility="invisible"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/grvAddUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:clipToPadding="false"
+                android:stretchMode="spacingWidthUniform"
+                android:layout_marginBottom="20dp"/>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvUserEmpty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="0dp"
+                android:background="@drawable/bg_board_empty"
+                android:text="@string/str_no_models_found"
+                android:textColor="@color/white65"
+                android:textSize="18dp"
+                android:visibility="gone"
+                android:layout_marginTop="60dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                app:textfont="@string/Gilroy_SemiBold" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.luxpmsoft.luxaipoc.widget.FooterMenu
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="bottom"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/flProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+</FrameLayout>

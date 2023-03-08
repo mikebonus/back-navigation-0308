@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Lidar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/surface_primary_blue_50</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="backgroundColor">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyApp.Base" parent="Theme.MaterialComponents.DayNight"/>
+    <style name="Theme.MyApp" parent="Theme.MyApp.Base">
+        <item name="colorSurface">@color/white</item>
+        <!-- Probably WOULD have controlled menu item color if we didn't override on the next line-->
+        <item name="colorOnSurface">@color/black</item>
+        <!-- potentially override colorOnSurface for all subtitle 1's. WHICH components use subtitle1? You'll have to guess -->
+        <item name="textAppearanceSubtitle1">@style/MyApp.TextAppearance.Subtitle1</item>
+    </style>
+    <!-- Default style for menu items. Intuition be damned, the only way to learn this is by scouring the material design docs line by line -->
+    <style name="MyApp.TextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/surface_dark_3</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_splash_screen</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.Lidar</item>
+    </style>
+
+    <style name="rounded_corner">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="rounded_corner2">
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="rounded_corner1">
+        <item name="cornerSize">14dp</item>
+    </style>
+
+    <style name="DialogSlideAnim" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+</resources>

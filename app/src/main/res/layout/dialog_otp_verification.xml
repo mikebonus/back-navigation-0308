@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_gradient"
+    android:visibility="visible">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/otp" />
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:text="@string/str_enter_otp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:textfont="@string/Gilroy_SemiBold"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:paddingStart="42dp"
+            android:paddingEnd="42dp"
+            android:text="@string/str_four_digit"
+            android:textColor="@color/c_grey"
+            android:textSize="18dp"
+            app:textfont="@string/Gilroy_Regular"/>
+
+        <com.luxpmsoft.luxaipoc.widget.SquarePinField
+            android:id="@+id/squareField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:inputType="number"
+            app:noOfFields="6"
+            app:distanceInBetween="12dp"
+            app:fieldBgColor="@color/black2"
+            app:fieldColor="@color/pink"
+            app:highlightColor="@color/pink"
+            app:highlightType="noFields"
+            android:text=""
+            android:textColor="@color/white"
+            android:gravity=""
+            app:cornerRadius="50dp"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lineResend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:enabled="false"
+                android:clickable="false"
+                android:text="@string/str_receive_code"
+                android:textColor="@color/c_grey"
+                android:textSize="16dp"
+                app:textfont="@string/Gilroy_Medium"/>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvResendCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:text="@string/str_resend"
+                android:textColor="@color/orange1"
+                android:textSize="16dp"
+                app:textfont="@string/Gilroy_SemiBold"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvVerify"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg_blue_pink_32"
+            android:gravity="center"
+            android:text="@string/str_verify"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:textfont="@string/Gilroy_SemiBold"/>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:textfont="@string/Gilroy_SemiBold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/flProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ProgressBar
+            android:id="@+id/progress_bar_common_medium"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</FrameLayout>

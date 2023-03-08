@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_home1"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg4"
+        android:layout_marginStart="20dp"
+        android:visibility="visible"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_app_logo"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="18dp"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <ImageView
+                android:id="@+id/icBack"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_back_bgrey" />
+
+            <ImageView
+                android:id="@+id/icMore"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_more" />
+
+        </RelativeLayout>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvNameModel"
+            app:textfont="@string/Gilroy_SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icBack"
+            android:layout_marginBottom="6dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0dp"
+            android:text=""
+            android:layout_marginTop="18dp"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/tvType"
+            app:textfont="@string/Gilroy_Regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icBack"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="0dp"
+            android:text=""
+            android:textColor="@color/white75"
+            android:textSize="14dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/bg_white"
+            android:layout_margin="20dp">
+
+            <io.github.sceneview.SceneView
+                android:id="@+id/sceneView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="45dp">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvHeadMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="70 cm"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        android:textSize="13dp"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvHeadTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/head"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="center">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvShoulderMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="170 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvShoulderTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shoulder"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="195dp"
+                    android:layout_marginStart="52dp"
+                    android:gravity="center">
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvWaistMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="90 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvWaistTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/waist"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="255dp"
+                    android:layout_marginStart="69dp"
+                    android:gravity="center">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvHipsMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="97 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvHipsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hips"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginEnd="50dp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true">
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvArmSpanMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="180 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvArmSpanTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/arm_span"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="158dp"
+                    android:layout_marginEnd="50dp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true">
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvChestMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="80 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvChestTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chest"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginEnd="50dp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true">
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvTorsoMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="80 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvTorsoTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/torso"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginEnd="77dp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true">
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvLegMeasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:includeFontPadding="false"
+                        android:text="60 cm"
+                        android:textSize="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/measure_shape"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvLegTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/leg"
+                        android:textSize="13dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/blue3"
+                        android:visibility="gone"
+                        app:textfont="@string/Gilroy_Regular"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/tvViewInYourSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_grey_24"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_view_ar"
+                    android:clickable="false"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    app:textfont="@string/Gilroy_SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="0dp"
+                    android:text="@string/view_in_your_space"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/grvMeasurement"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:scrollbars="none"
+                android:visibility="gone"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="45dp"
+                android:stretchMode="spacingWidthUniform" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineBodyMeasure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvBodyMeasurement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="0dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/body_measurement"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:textfont="@string/Gilroy_SemiBold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBodyMeasurement"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="0dp"
+                        android:text="@string/weight"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        app:textfont="@string/Gilroy_SemiBold" />
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="0dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:text="107lbs"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:textfont="@string/Gilroy_SemiBold" />
+
+                    <View
+                        android:id="@+id/rectangle_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:background="@drawable/rectangle_pink" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="60dp"
+                    android:orientation="vertical">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="0dp"
+                        android:text="@string/bmi"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:textfont="@string/Gilroy_SemiBold" />
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvWeight1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="0dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:text="107lbs"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:textfont="@string/Gilroy_SemiBold" />
+
+                    <View
+                        android:id="@+id/rectangle_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:background="@drawable/rectangle_pink" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="60dp"
+                    android:orientation="vertical">
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="0dp"
+                        android:text="@string/height"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:textfont="@string/Gilroy_SemiBold" />
+
+                    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                        android:id="@+id/tvHeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="0dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:text="186 cm"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:textfont="@string/Gilroy_SemiBold" />
+
+                    <View
+                        android:id="@+id/rectangle_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:background="@drawable/rectangle_blue" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineOrganization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    app:textfont="@string/Gilroy_SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="0dp"
+                    android:text="@string/created_on"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvTime"
+                    app:textfont="@string/Gilroy_SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="0dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                android:id="@+id/tvSize"
+                app:textfont="@string/Gilroy_SemiBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingEnd="24dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="0dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/btResetMeasurement"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:background="@drawable/bg_purple_12"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Reset measurement"
+            android:layout_marginStart="24dp"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            app:textfont="@string/Gilroy_SemiBold"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/flProgressRename"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bg_gradient">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+</FrameLayout>

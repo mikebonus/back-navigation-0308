@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewPlus">
+        <attr name="textfont" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextPlus">
+        <attr name="editfont" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="Shadout">
+        <attr name="cornerRadius1" format="dimension"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="Dx" format="dimension"/>
+        <attr name="Dy" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ButtonPlus">
+        <attr name="textAttachmentTitle" format="string" />
+        <attr name="btnBackground" format="reference|color"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="elevation" format="dimension"/>
+        <attr name="textOutlineSpotShadowColor" format="color"/>
+        <attr name="textShadowColor" format="color"/>
+        <attr name="cardView" format="boolean"/>
+        <attr name="width" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EdittextLabl">
+        <attr name="textTitle" format="string" />
+        <attr name="textHint" format="string" />
+        <attr name="textError" format="string" />
+        <attr name="btnError" format="boolean" />
+        <attr name="confirmPassword" format="boolean"/>
+        <attr name="isEmail" format="boolean"/>
+        <attr name="textColorTitle" format="boolean" />
+        <attr name="textColorContent" format="boolean" />
+        <attr name="textOptional" format="boolean" />
+        <attr name="isPerformClick" format="boolean" />
+        <attr name="icSite" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="Footer"/>
+    <declare-styleable name="PinEntryEditText">
+        <attr name="pinAnimationType" format="enum">
+            <enum name="popIn" value="0" />
+            <enum name="fromBottom" value="1" />
+            <enum name="none" value="-1" />
+        </attr>
+        <attr name="pinCharacterMask" format="string" />
+        <attr name="pinRepeatedHint" format="string" />
+        <attr name="pinLineStroke" format="dimension" />
+        <attr name="pinLineStrokeSelected" format="dimension" />
+        <attr name="pinCharacterSpacing" format="dimension" />
+        <attr name="pinTextBottomPadding" format="dimension" />
+        <attr name="pinLineColors" format="color" />
+        <attr name="pinBackgroundDrawable" format="reference" />
+        <attr name="pinBackgroundIsSquare" format="boolean" />
+    </declare-styleable>
+    <string name="Gilroy_Black">Gilroy-Black.ttf</string>
+    <string name="Gilroy_BlackItalic">Gilroy-BlackItalic.ttf</string>
+    <string name="Gilroy_Bold">Gilroy-Bold.ttf</string>
+    <string name="Gilroy_BoldItalic">Gilroy-BoldItalic.ttf</string>
+    <string name="Gilroy_ExtraBold">Gilroy-ExtraBold.ttf</string>
+    <string name="Gilroy_ExtraBoldItalic">Gilroy-ExtraBoldItalic.ttf</string>
+    <string name="Gilroy_Light">Gilroy-Light.ttf</string>
+    <string name="Gilroy_LightItalic">Gilroy-LightItalic.ttf</string>
+    <string name="Gilroy_Medium">Gilroy-Medium.ttf</string>
+    <string name="Gilroy_MediumItalic">Gilroy-MediumItalic.ttf</string>
+    <string name="Gilroy_Regular">Gilroy-Regular.ttf</string>
+    <string name="Gilroy_RegularItalic">Gilroy-RegularItalic.ttf</string>
+    <string name="Gilroy_SemiBold">Gilroy-SemiBold.ttf</string>
+    <string name="Gilroy_SemiBoldItalic">Gilroy-SemiBoldItalic.ttf</string>
+    <color name="inactivePinFieldColor">#808080</color>
+    <color name="pinFieldLibraryAccent">#FF4081</color>
+    <color name="pinFieldLibraryTransparent">#00000000</color>
+    <declare-styleable name="CirclePinField">
+        <attr format="dimension" name="circleRadius"/>
+        <attr format="color" name="fillerColor"/>
+        <attr format="dimension" name="fillerRadius"/>
+    </declare-styleable>
+    <declare-styleable name="LinePinField">
+        <attr format="dimension" name="bottomTextPaddingDp"/>
+    </declare-styleable>
+    <declare-styleable name="PinField">
+        <attr format="integer" name="noOfFields"/>
+        <attr format="dimension" name="distanceInBetween"/>
+        <attr format="dimension" name="lineThickness"/>
+        <attr format="color" name="fieldColor"/>
+        <attr format="color" name="highlightColor"/>
+        <attr format="boolean" name="highlightEnabled"/>
+        <attr format="boolean" name="isCustomBackground"/>
+        <attr format="boolean" name="isCursorEnabled"/>
+        <!--Single Field Mode is deprecated use highlight type to define how to highlight the fields-->
+        <attr format="boolean" name="highlightSingleFieldMode"/>
+        <attr format="enum" name="highlightType">
+            <enum name="allFields" value="0"/>
+            <enum name="currentField" value="1"/>
+            <enum name="completedFields" value="2"/>
+            <enum name="noFields" value="3"/>
+        </attr>
+        <attr format="color" name="fieldBgColor"/>
+    </declare-styleable>
+    <declare-styleable name="SquarePinField">
+        <attr format="dimension" name="cornerRadius"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_shadowed" format="boolean"/>
+        <attr name="sl_shadow_distance" format="dimension"/>
+        <attr name="sl_shadow_angle" format="integer"/>
+        <attr name="sl_shadow_radius" format="dimension"/>
+        <attr name="sl_shadow_color" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_options3">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/lineScene"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_object"
+                    android:layout_marginEnd="16dp"
+                    android:enabled="false"
+                    android:clickable="false"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvSceneScan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_scene_scan"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:enabled="false"
+                    android:clickable="false"
+                    app:textfont="@string/Gilroy_Regular"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@color/c_grey2"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/lineObject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_scene"
+                    android:layout_marginEnd="15dp"
+                    android:enabled="false"
+                    android:clickable="false"/>
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvObjectScan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_object_scan"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:enabled="false"
+                    android:clickable="false"
+                    app:textfont="@string/Gilroy_Regular"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/c_grey2"
+                android:visibility="gone"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/lineBody"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_body_scan"
+                    android:layout_marginEnd="16dp"
+                    android:enabled="false"
+                    android:clickable="false"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvBodyScan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_body_scan"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:enabled="false"
+                    android:clickable="false"
+                    app:textfont="@string/Gilroy_Regular"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/c_grey2"
+                android:visibility="gone"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/lineWorkout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_workout"
+                    android:layout_marginEnd="16dp"
+                    android:enabled="false"
+                    android:clickable="false"/>
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:id="@+id/tvWorkout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_workout"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:enabled="false"
+                    android:clickable="false"
+                    app:textfont="@string/Gilroy_Regular"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

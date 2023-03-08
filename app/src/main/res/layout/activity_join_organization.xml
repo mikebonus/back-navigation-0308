@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_dark_3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_blur_log_in" />
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/top_bar_login_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/join_organization_screen_title"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/join_organization_screen_subtitle"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_title"
+        app:textfont="@string/Gilroy_Regular" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_organization_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/common_organization_name"
+        android:textColorHint="@color/white"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_subtitle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_organization_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_edit_text_onboarding"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/gray_300"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/join_organization_screen_message"
+        android:textColorHint="@color/gray_300"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_organization_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_edit_text_onboarding"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:lines="3"
+            android:maxLines="5"
+            android:minLines="3"
+            android:textColor="@color/gray_300"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_role_requested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/join_organization_screen_role_requested"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_message"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <include
+        android:id="@+id/view_drop_down_menu"
+        layout="@layout/view_drop_down_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_organization_name" />
+
+    <RadioGroup
+        android:id="@+id/radio_button_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@id/text_role_requested"
+        app:layout_constraintTop_toBottomOf="@id/text_role_requested">
+
+        <RadioButton
+            android:id="@+id/radio_button_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:text="@string/common_user"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radio_button_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:buttonTint="@color/white"
+            android:text="@string/common_admin"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/button_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/bg_purple_8_disabled"
+        android:enabled="false"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="@string/common_continue"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_drop_down_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="view_drop_down_menu" />
+
+    <FrameLayout
+        android:id="@+id/fl_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradient"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

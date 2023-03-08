@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_select_account_type">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_business_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/common_business_account"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/select_account_type_screen_business_subtitle"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_title"
+        app:textfont="@string/Gilroy_Regular" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/button_add_organization"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_button_select_account_type"
+        android:paddingStart="14dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="@string/common_add_organization"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_subtitle"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/ic_arrow_next"
+        app:layout_constraintBottom_toBottomOf="@id/button_add_organization"
+        app:layout_constraintEnd_toEndOf="@id/button_add_organization"
+        app:layout_constraintTop_toTopOf="@id/button_add_organization" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/button_join_organization"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_button_select_account_type"
+        android:paddingStart="14dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="@string/common_join_organization"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_add_organization"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/ic_arrow_next"
+        app:layout_constraintBottom_toBottomOf="@id/button_join_organization"
+        app:layout_constraintEnd_toEndOf="@id/button_join_organization"
+        app:layout_constraintTop_toTopOf="@id/button_join_organization" />
+</androidx.constraintlayout.widget.ConstraintLayout>

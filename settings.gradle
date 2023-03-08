@@ -1,0 +1,4 @@
+rootProject.name = "lidar"
+include ':app'
+include ':sceneview'
+include ':arsceneview'

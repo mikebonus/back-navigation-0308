@@ -1,0 +1,3493 @@
+{
+  "message": "",
+  "data": [
+    {
+      "id": 1,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Afghanistan",
+      "shortName": "AF",
+      "currency": "AFN",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/afg.png",
+      "callingCode": "+93"
+    },
+    {
+      "id": 2,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Åland Islands",
+      "shortName": "AX",
+      "currency": "EUR",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/ala.png",
+      "callingCode": "+358"
+    },
+    {
+      "id": 3,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Albania",
+      "shortName": "AL",
+      "currency": "ALL",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/alb.png",
+      "callingCode": "+355"
+    },
+    {
+      "id": 4,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Algeria",
+      "shortName": "DZ",
+      "currency": "DZD",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/dza.png",
+      "callingCode": "+213"
+    },
+    {
+      "id": 5,
+      "icon": "/default/icon-logo-default.png",
+      "name": "American Samoa",
+      "shortName": "AS",
+      "currency": "USD",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/asm.png",
+      "callingCode": "+1684"
+    },
+    {
+      "id": 6,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Andorra",
+      "shortName": "AD",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/and.png",
+      "callingCode": "+376"
+    },
+    {
+      "id": 7,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Angola",
+      "shortName": "AO",
+      "currency": "AOA",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/ago.png",
+      "callingCode": "+244"
+    },
+    {
+      "id": 8,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Anguilla",
+      "shortName": "AI",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/aia.png",
+      "callingCode": "+1264"
+    },
+    {
+      "id": 9,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Antarctica",
+      "shortName": "AQ",
+      "currency": "",
+      "area": null,
+      "flag": "/default/flags/ata.png",
+      "callingCode": "+672"
+    },
+    {
+      "id": 10,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Antigua and Barbuda",
+      "shortName": "AG",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/atg.png",
+      "callingCode": "+1268"
+    },
+    {
+      "id": 11,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Argentina",
+      "shortName": "AR",
+      "currency": "ARS",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/arg.png",
+      "callingCode": "+54"
+    },
+    {
+      "id": 12,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Armenia",
+      "shortName": "AM",
+      "currency": "AMD",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/arm.png",
+      "callingCode": "+374"
+    },
+    {
+      "id": 13,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Aruba",
+      "shortName": "AW",
+      "currency": "AWG",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/abw.png",
+      "callingCode": "+297"
+    },
+    {
+      "id": 14,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Australia",
+      "shortName": "AU",
+      "currency": "AUD",
+      "area": {
+        "id": 10,
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand"
+      },
+      "flag": "/default/flags/aus.png",
+      "callingCode": "+61"
+    },
+    {
+      "id": 15,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Austria",
+      "shortName": "AT",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/aut.png",
+      "callingCode": "+43"
+    },
+    {
+      "id": 16,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Azerbaijan",
+      "shortName": "AZ",
+      "currency": "AZN",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/aze.png",
+      "callingCode": "+994"
+    },
+    {
+      "id": 17,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bahamas",
+      "shortName": "BS",
+      "currency": "BSD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/bhs.png",
+      "callingCode": "+1242"
+    },
+    {
+      "id": 18,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bahrain",
+      "shortName": "BH",
+      "currency": "BHD",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/bhr.png",
+      "callingCode": "+973"
+    },
+    {
+      "id": 19,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bangladesh",
+      "shortName": "BD",
+      "currency": "BDT",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/bgd.png",
+      "callingCode": "+880"
+    },
+    {
+      "id": 20,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Barbados",
+      "shortName": "BB",
+      "currency": "BBD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/brb.png",
+      "callingCode": "+1246"
+    },
+    {
+      "id": 21,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Belarus",
+      "shortName": "BY",
+      "currency": "",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/blr.png",
+      "callingCode": "+375"
+    },
+    {
+      "id": 22,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Belgium",
+      "shortName": "BE",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/bel.png",
+      "callingCode": "+32"
+    },
+    {
+      "id": 23,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Belize",
+      "shortName": "BZ",
+      "currency": "BZD",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/blz.png",
+      "callingCode": "+501"
+    },
+    {
+      "id": 24,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Benin",
+      "shortName": "BJ",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/ben.png",
+      "callingCode": "+229"
+    },
+    {
+      "id": 25,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bermuda",
+      "shortName": "BM",
+      "currency": "BMD",
+      "area": {
+        "id": 15,
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "flag": "/default/flags/bmu.png",
+      "callingCode": "+1441"
+    },
+    {
+      "id": 26,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bhutan",
+      "shortName": "BT",
+      "currency": "",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/btn.png",
+      "callingCode": "+975"
+    },
+    {
+      "id": 27,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bolivia (Plurinational State of)",
+      "shortName": "BO",
+      "currency": "BOB",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/bol.png",
+      "callingCode": "+591"
+    },
+    {
+      "id": 28,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "shortName": "BQ",
+      "currency": "USD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/bes.png",
+      "callingCode": "+5997"
+    },
+    {
+      "id": 29,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bosnia and Herzegovina",
+      "shortName": "BA",
+      "currency": "BAM",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/bih.png",
+      "callingCode": "+387"
+    },
+    {
+      "id": 30,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Botswana",
+      "shortName": "BW",
+      "currency": "BWP",
+      "area": {
+        "id": 16,
+        "region": "Africa",
+        "subregion": "Southern Africa"
+      },
+      "flag": "/default/flags/bwa.png",
+      "callingCode": "+267"
+    },
+    {
+      "id": 31,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bouvet Island",
+      "shortName": "BV",
+      "currency": "NOK",
+      "area": null,
+      "flag": "/default/flags/bvt.png",
+      "callingCode": ""
+    },
+    {
+      "id": 32,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Brazil",
+      "shortName": "BR",
+      "currency": "BRL",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/bra.png",
+      "callingCode": "+55"
+    },
+    {
+      "id": 33,
+      "icon": "/default/icon-logo-default.png",
+      "name": "British Indian Ocean Territory",
+      "shortName": "IO",
+      "currency": "USD",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/iot.png",
+      "callingCode": "+246"
+    },
+    {
+      "id": 37,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Brunei Darussalam",
+      "shortName": "BN",
+      "currency": "",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/brn.png",
+      "callingCode": "+673"
+    },
+    {
+      "id": 38,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Bulgaria",
+      "shortName": "BG",
+      "currency": "BGN",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/bgr.png",
+      "callingCode": "+359"
+    },
+    {
+      "id": 39,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Burkina Faso",
+      "shortName": "BF",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/bfa.png",
+      "callingCode": "+226"
+    },
+    {
+      "id": 40,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Burundi",
+      "shortName": "BI",
+      "currency": "BIF",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/bdi.png",
+      "callingCode": "+257"
+    },
+    {
+      "id": 44,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cabo Verde",
+      "shortName": "CV",
+      "currency": "CVE",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/cpv.png",
+      "callingCode": "+238"
+    },
+    {
+      "id": 41,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cambodia",
+      "shortName": "KH",
+      "currency": "",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/khm.png",
+      "callingCode": "+855"
+    },
+    {
+      "id": 42,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cameroon",
+      "shortName": "CM",
+      "currency": "XAF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/cmr.png",
+      "callingCode": "+237"
+    },
+    {
+      "id": 43,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Canada",
+      "shortName": "CA",
+      "currency": "CAD",
+      "area": {
+        "id": 15,
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "flag": "/default/flags/can.png",
+      "callingCode": "+1"
+    },
+    {
+      "id": 45,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cayman Islands",
+      "shortName": "KY",
+      "currency": "KYD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/cym.png",
+      "callingCode": "+1345"
+    },
+    {
+      "id": 46,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Central African Republic",
+      "shortName": "CF",
+      "currency": "XAF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/caf.png",
+      "callingCode": "+236"
+    },
+    {
+      "id": 47,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Chad",
+      "shortName": "TD",
+      "currency": "XAF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/tcd.png",
+      "callingCode": "+235"
+    },
+    {
+      "id": 48,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Chile",
+      "shortName": "CL",
+      "currency": "CLP",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/chl.png",
+      "callingCode": "+56"
+    },
+    {
+      "id": 49,
+      "icon": "/default/icon-logo-default.png",
+      "name": "China",
+      "shortName": "CN",
+      "currency": "CNY",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/chn.png",
+      "callingCode": "+86"
+    },
+    {
+      "id": 50,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Christmas Island",
+      "shortName": "CX",
+      "currency": "AUD",
+      "area": {
+        "id": 10,
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand"
+      },
+      "flag": "/default/flags/cxr.png",
+      "callingCode": "+61"
+    },
+    {
+      "id": 51,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cocos (Keeling) Islands",
+      "shortName": "CC",
+      "currency": "AUD",
+      "area": {
+        "id": 10,
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand"
+      },
+      "flag": "/default/flags/cck.png",
+      "callingCode": "+61"
+    },
+    {
+      "id": 52,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Colombia",
+      "shortName": "CO",
+      "currency": "COP",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/col.png",
+      "callingCode": "+57"
+    },
+    {
+      "id": 53,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Comoros",
+      "shortName": "KM",
+      "currency": "KMF",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/com.png",
+      "callingCode": "+269"
+    },
+    {
+      "id": 54,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Congo",
+      "shortName": "CG",
+      "currency": "XAF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/cog.png",
+      "callingCode": "+242"
+    },
+    {
+      "id": 55,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Congo (Democratic Republic of the)",
+      "shortName": "CD",
+      "currency": "CDF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/cod.png",
+      "callingCode": "+243"
+    },
+    {
+      "id": 56,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cook Islands",
+      "shortName": "CK",
+      "currency": "",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/cok.png",
+      "callingCode": "+682"
+    },
+    {
+      "id": 57,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Costa Rica",
+      "shortName": "CR",
+      "currency": "CRC",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/cri.png",
+      "callingCode": "+506"
+    },
+    {
+      "id": 107,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Côte d'Ivoire",
+      "shortName": "CI",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/civ.png",
+      "callingCode": "+225"
+    },
+    {
+      "id": 58,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Croatia",
+      "shortName": "HR",
+      "currency": "HRK",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/hrv.png",
+      "callingCode": "+385"
+    },
+    {
+      "id": 59,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cuba",
+      "shortName": "CU",
+      "currency": "",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/cub.png",
+      "callingCode": "+53"
+    },
+    {
+      "id": 60,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Curaçao",
+      "shortName": "CW",
+      "currency": "ANG",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/cuw.png",
+      "callingCode": "+599"
+    },
+    {
+      "id": 61,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Cyprus",
+      "shortName": "CY",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/cyp.png",
+      "callingCode": "+357"
+    },
+    {
+      "id": 62,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Czech Republic",
+      "shortName": "CZ",
+      "currency": "CZK",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/cze.png",
+      "callingCode": "+420"
+    },
+    {
+      "id": 63,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Denmark",
+      "shortName": "DK",
+      "currency": "DKK",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/dnk.png",
+      "callingCode": "+45"
+    },
+    {
+      "id": 64,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Djibouti",
+      "shortName": "DJ",
+      "currency": "DJF",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/dji.png",
+      "callingCode": "+253"
+    },
+    {
+      "id": 65,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Dominica",
+      "shortName": "DM",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/dma.png",
+      "callingCode": "+1767"
+    },
+    {
+      "id": 66,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Dominican Republic",
+      "shortName": "DO",
+      "currency": "DOP",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/dom.png",
+      "callingCode": ""
+    },
+    {
+      "id": 67,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Ecuador",
+      "shortName": "EC",
+      "currency": "USD",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/ecu.png",
+      "callingCode": "+593"
+    },
+    {
+      "id": 68,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Egypt",
+      "shortName": "EG",
+      "currency": "EGP",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/egy.png",
+      "callingCode": "+20"
+    },
+    {
+      "id": 69,
+      "icon": "/default/icon-logo-default.png",
+      "name": "El Salvador",
+      "shortName": "SV",
+      "currency": "USD",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/slv.png",
+      "callingCode": "+503"
+    },
+    {
+      "id": 70,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Equatorial Guinea",
+      "shortName": "GQ",
+      "currency": "XAF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/gnq.png",
+      "callingCode": "+240"
+    },
+    {
+      "id": 71,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Eritrea",
+      "shortName": "ER",
+      "currency": "ERN",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/eri.png",
+      "callingCode": "+291"
+    },
+    {
+      "id": 72,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Estonia",
+      "shortName": "EE",
+      "currency": "EUR",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/est.png",
+      "callingCode": "+372"
+    },
+    {
+      "id": 73,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Ethiopia",
+      "shortName": "ET",
+      "currency": "ETB",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/eth.png",
+      "callingCode": "+251"
+    },
+    {
+      "id": 74,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Falkland Islands (Malvinas)",
+      "shortName": "FK",
+      "currency": "FKP",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/flk.png",
+      "callingCode": "+500"
+    },
+    {
+      "id": 75,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Faroe Islands",
+      "shortName": "FO",
+      "currency": "",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/fro.png",
+      "callingCode": "+298"
+    },
+    {
+      "id": 76,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Fiji",
+      "shortName": "FJ",
+      "currency": "FJD",
+      "area": {
+        "id": 20,
+        "region": "Oceania",
+        "subregion": "Melanesia"
+      },
+      "flag": "/default/flags/fji.png",
+      "callingCode": "+679"
+    },
+    {
+      "id": 77,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Finland",
+      "shortName": "FI",
+      "currency": "EUR",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/fin.png",
+      "callingCode": "+358"
+    },
+    {
+      "id": 78,
+      "icon": "/default/icon-logo-default.png",
+      "name": "France",
+      "shortName": "FR",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/fra.png",
+      "callingCode": "+33"
+    },
+    {
+      "id": 79,
+      "icon": "/default/icon-logo-default.png",
+      "name": "French Guiana",
+      "shortName": "GF",
+      "currency": "EUR",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/guf.png",
+      "callingCode": "+594"
+    },
+    {
+      "id": 80,
+      "icon": "/default/icon-logo-default.png",
+      "name": "French Polynesia",
+      "shortName": "PF",
+      "currency": "XPF",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/pyf.png",
+      "callingCode": "+689"
+    },
+    {
+      "id": 81,
+      "icon": "/default/icon-logo-default.png",
+      "name": "French Southern Territories",
+      "shortName": "TF",
+      "currency": "EUR",
+      "area": {
+        "id": 16,
+        "region": "Africa",
+        "subregion": "Southern Africa"
+      },
+      "flag": "/default/flags/atf.png",
+      "callingCode": ""
+    },
+    {
+      "id": 82,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Gabon",
+      "shortName": "GA",
+      "currency": "XAF",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/gab.png",
+      "callingCode": "+241"
+    },
+    {
+      "id": 83,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Gambia",
+      "shortName": "GM",
+      "currency": "GMD",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/gmb.png",
+      "callingCode": "+220"
+    },
+    {
+      "id": 84,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Georgia",
+      "shortName": "GE",
+      "currency": "GEL",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/geo.png",
+      "callingCode": "+995"
+    },
+    {
+      "id": 85,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Germany",
+      "shortName": "DE",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/deu.png",
+      "callingCode": "+49"
+    },
+    {
+      "id": 86,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Ghana",
+      "shortName": "GH",
+      "currency": "GHS",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/gha.png",
+      "callingCode": "+233"
+    },
+    {
+      "id": 87,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Gibraltar",
+      "shortName": "GI",
+      "currency": "GIP",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/gib.png",
+      "callingCode": "+350"
+    },
+    {
+      "id": 88,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Greece",
+      "shortName": "GR",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/grc.png",
+      "callingCode": "+30"
+    },
+    {
+      "id": 89,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Greenland",
+      "shortName": "GL",
+      "currency": "DKK",
+      "area": {
+        "id": 15,
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "flag": "/default/flags/grl.png",
+      "callingCode": "+299"
+    },
+    {
+      "id": 90,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Grenada",
+      "shortName": "GD",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/grd.png",
+      "callingCode": "+1473"
+    },
+    {
+      "id": 91,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guadeloupe",
+      "shortName": "GP",
+      "currency": "EUR",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/glp.png",
+      "callingCode": "+590"
+    },
+    {
+      "id": 92,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guam",
+      "shortName": "GU",
+      "currency": "USD",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/gum.png",
+      "callingCode": "+1671"
+    },
+    {
+      "id": 93,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guatemala",
+      "shortName": "GT",
+      "currency": "GTQ",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/gtm.png",
+      "callingCode": "+502"
+    },
+    {
+      "id": 94,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guernsey",
+      "shortName": "GG",
+      "currency": "",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/ggy.png",
+      "callingCode": "+44"
+    },
+    {
+      "id": 95,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guinea",
+      "shortName": "GN",
+      "currency": "GNF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/gin.png",
+      "callingCode": "+224"
+    },
+    {
+      "id": 96,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guinea-Bissau",
+      "shortName": "GW",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/gnb.png",
+      "callingCode": "+245"
+    },
+    {
+      "id": 97,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Guyana",
+      "shortName": "GY",
+      "currency": "GYD",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/guy.png",
+      "callingCode": "+592"
+    },
+    {
+      "id": 98,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Haiti",
+      "shortName": "HT",
+      "currency": "HTG",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/hti.png",
+      "callingCode": "+509"
+    },
+    {
+      "id": 99,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Heard Island and McDonald Islands",
+      "shortName": "HM",
+      "currency": "AUD",
+      "area": null,
+      "flag": "/default/flags/hmd.png",
+      "callingCode": ""
+    },
+    {
+      "id": 100,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Holy See",
+      "shortName": "VA",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/vat.png",
+      "callingCode": "+379"
+    },
+    {
+      "id": 101,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Honduras",
+      "shortName": "HN",
+      "currency": "HNL",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/hnd.png",
+      "callingCode": "+504"
+    },
+    {
+      "id": 102,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Hong Kong",
+      "shortName": "HK",
+      "currency": "HKD",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/hkg.png",
+      "callingCode": "+852"
+    },
+    {
+      "id": 103,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Hungary",
+      "shortName": "HU",
+      "currency": "HUF",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/hun.png",
+      "callingCode": "+36"
+    },
+    {
+      "id": 104,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Iceland",
+      "shortName": "IS",
+      "currency": "ISK",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/isl.png",
+      "callingCode": "+354"
+    },
+    {
+      "id": 105,
+      "icon": "/default/icon-logo-default.png",
+      "name": "India",
+      "shortName": "IN",
+      "currency": "INR",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/ind.png",
+      "callingCode": "+91"
+    },
+    {
+      "id": 106,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Indonesia",
+      "shortName": "ID",
+      "currency": "IDR",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/idn.png",
+      "callingCode": "+62"
+    },
+    {
+      "id": 108,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Iran (Islamic Republic of)",
+      "shortName": "IR",
+      "currency": "IRR",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/irn.png",
+      "callingCode": "+98"
+    },
+    {
+      "id": 109,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Iraq",
+      "shortName": "IQ",
+      "currency": "IQD",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/irq.png",
+      "callingCode": "+964"
+    },
+    {
+      "id": 110,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Ireland",
+      "shortName": "IE",
+      "currency": "EUR",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/irl.png",
+      "callingCode": "+353"
+    },
+    {
+      "id": 111,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Isle of Man",
+      "shortName": "IM",
+      "currency": "",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/imn.png",
+      "callingCode": "+44"
+    },
+    {
+      "id": 112,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Israel",
+      "shortName": "IL",
+      "currency": "ILS",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/isr.png",
+      "callingCode": "+972"
+    },
+    {
+      "id": 113,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Italy",
+      "shortName": "IT",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/ita.png",
+      "callingCode": "+39"
+    },
+    {
+      "id": 114,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Jamaica",
+      "shortName": "JM",
+      "currency": "JMD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/jam.png",
+      "callingCode": "+1876"
+    },
+    {
+      "id": 115,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Japan",
+      "shortName": "JP",
+      "currency": "JPY",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/jpn.png",
+      "callingCode": "+81"
+    },
+    {
+      "id": 116,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Jersey",
+      "shortName": "JE",
+      "currency": "",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/jey.png",
+      "callingCode": "+44"
+    },
+    {
+      "id": 117,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Jordan",
+      "shortName": "JO",
+      "currency": "JOD",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/jor.png",
+      "callingCode": "+962"
+    },
+    {
+      "id": 118,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Kazakhstan",
+      "shortName": "KZ",
+      "currency": "KZT",
+      "area": {
+        "id": 22,
+        "region": "Asia",
+        "subregion": "Central Asia"
+      },
+      "flag": "/default/flags/kaz.png",
+      "callingCode": ""
+    },
+    {
+      "id": 119,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Kenya",
+      "shortName": "KE",
+      "currency": "KES",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/ken.png",
+      "callingCode": "+254"
+    },
+    {
+      "id": 120,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Kiribati",
+      "shortName": "KI",
+      "currency": "",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/kir.png",
+      "callingCode": "+686"
+    },
+    {
+      "id": 166,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Korea (Democratic People's Republic of)",
+      "shortName": "KP",
+      "currency": "KPW",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/prk.png",
+      "callingCode": "+850"
+    },
+    {
+      "id": 211,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Korea (Republic of)",
+      "shortName": "KR",
+      "currency": "KRW",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/kor.png",
+      "callingCode": "+82"
+    },
+    {
+      "id": 121,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Kuwait",
+      "shortName": "KW",
+      "currency": "KWD",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/kwt.png",
+      "callingCode": "+965"
+    },
+    {
+      "id": 122,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Kyrgyzstan",
+      "shortName": "KG",
+      "currency": "KGS",
+      "area": {
+        "id": 22,
+        "region": "Asia",
+        "subregion": "Central Asia"
+      },
+      "flag": "/default/flags/kgz.png",
+      "callingCode": "+996"
+    },
+    {
+      "id": 123,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Lao People's Democratic Republic",
+      "shortName": "LA",
+      "currency": "LAK",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/lao.png",
+      "callingCode": "+856"
+    },
+    {
+      "id": 124,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Latvia",
+      "shortName": "LV",
+      "currency": "EUR",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/lva.png",
+      "callingCode": "+371"
+    },
+    {
+      "id": 125,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Lebanon",
+      "shortName": "LB",
+      "currency": "LBP",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/lbn.png",
+      "callingCode": "+961"
+    },
+    {
+      "id": 126,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Lesotho",
+      "shortName": "LS",
+      "currency": "",
+      "area": {
+        "id": 16,
+        "region": "Africa",
+        "subregion": "Southern Africa"
+      },
+      "flag": "/default/flags/lso.png",
+      "callingCode": "+266"
+    },
+    {
+      "id": 127,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Liberia",
+      "shortName": "LR",
+      "currency": "LRD",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/lbr.png",
+      "callingCode": "+231"
+    },
+    {
+      "id": 128,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Libya",
+      "shortName": "LY",
+      "currency": "LYD",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/lby.png",
+      "callingCode": "+218"
+    },
+    {
+      "id": 129,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Liechtenstein",
+      "shortName": "LI",
+      "currency": "CHF",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/lie.png",
+      "callingCode": "+423"
+    },
+    {
+      "id": 130,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Lithuania",
+      "shortName": "LT",
+      "currency": "EUR",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/ltu.png",
+      "callingCode": "+370"
+    },
+    {
+      "id": 131,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Luxembourg",
+      "shortName": "LU",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/lux.png",
+      "callingCode": "+352"
+    },
+    {
+      "id": 132,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Macao",
+      "shortName": "MO",
+      "currency": "MOP",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/mac.png",
+      "callingCode": "+853"
+    },
+    {
+      "id": 133,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Macedonia (the former Yugoslav Republic of)",
+      "shortName": "MK",
+      "currency": "MKD",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/mkd.png",
+      "callingCode": "+389"
+    },
+    {
+      "id": 134,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Madagascar",
+      "shortName": "MG",
+      "currency": "MGA",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/mdg.png",
+      "callingCode": "+261"
+    },
+    {
+      "id": 135,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Malawi",
+      "shortName": "MW",
+      "currency": "MWK",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/mwi.png",
+      "callingCode": "+265"
+    },
+    {
+      "id": 136,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Malaysia",
+      "shortName": "MY",
+      "currency": "MYR",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/mys.png",
+      "callingCode": "+60"
+    },
+    {
+      "id": 137,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Maldives",
+      "shortName": "MV",
+      "currency": "MVR",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/mdv.png",
+      "callingCode": "+960"
+    },
+    {
+      "id": 138,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mali",
+      "shortName": "ML",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/mli.png",
+      "callingCode": "+223"
+    },
+    {
+      "id": 139,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Malta",
+      "shortName": "MT",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/mlt.png",
+      "callingCode": "+356"
+    },
+    {
+      "id": 140,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Marshall Islands",
+      "shortName": "MH",
+      "currency": "USD",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/mhl.png",
+      "callingCode": "+692"
+    },
+    {
+      "id": 141,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Martinique",
+      "shortName": "MQ",
+      "currency": "EUR",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/mtq.png",
+      "callingCode": "+596"
+    },
+    {
+      "id": 142,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mauritania",
+      "shortName": "MR",
+      "currency": "MRO",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/mrt.png",
+      "callingCode": "+222"
+    },
+    {
+      "id": 143,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mauritius",
+      "shortName": "MU",
+      "currency": "MUR",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/mus.png",
+      "callingCode": "+230"
+    },
+    {
+      "id": 144,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mayotte",
+      "shortName": "YT",
+      "currency": "EUR",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/myt.png",
+      "callingCode": "+262"
+    },
+    {
+      "id": 145,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mexico",
+      "shortName": "MX",
+      "currency": "MXN",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/mex.png",
+      "callingCode": "+52"
+    },
+    {
+      "id": 146,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Micronesia (Federated States of)",
+      "shortName": "FM",
+      "currency": "",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/fsm.png",
+      "callingCode": "+691"
+    },
+    {
+      "id": 147,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Moldova (Republic of)",
+      "shortName": "MD",
+      "currency": "MDL",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/mda.png",
+      "callingCode": "+373"
+    },
+    {
+      "id": 148,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Monaco",
+      "shortName": "MC",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/mco.png",
+      "callingCode": "+377"
+    },
+    {
+      "id": 149,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mongolia",
+      "shortName": "MN",
+      "currency": "MNT",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/mng.png",
+      "callingCode": "+976"
+    },
+    {
+      "id": 150,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Montenegro",
+      "shortName": "ME",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/mne.png",
+      "callingCode": "+382"
+    },
+    {
+      "id": 151,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Montserrat",
+      "shortName": "MS",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/msr.png",
+      "callingCode": "+1664"
+    },
+    {
+      "id": 152,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Morocco",
+      "shortName": "MA",
+      "currency": "MAD",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/mar.png",
+      "callingCode": "+212"
+    },
+    {
+      "id": 153,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Mozambique",
+      "shortName": "MZ",
+      "currency": "MZN",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/moz.png",
+      "callingCode": "+258"
+    },
+    {
+      "id": 154,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Myanmar",
+      "shortName": "MM",
+      "currency": "MMK",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/mmr.png",
+      "callingCode": "+95"
+    },
+    {
+      "id": 155,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Namibia",
+      "shortName": "NA",
+      "currency": "",
+      "area": {
+        "id": 16,
+        "region": "Africa",
+        "subregion": "Southern Africa"
+      },
+      "flag": "/default/flags/nam.png",
+      "callingCode": "+264"
+    },
+    {
+      "id": 156,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Nauru",
+      "shortName": "NR",
+      "currency": "",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/nru.png",
+      "callingCode": "+674"
+    },
+    {
+      "id": 157,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Nepal",
+      "shortName": "NP",
+      "currency": "NPR",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/npl.png",
+      "callingCode": "+977"
+    },
+    {
+      "id": 158,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Netherlands",
+      "shortName": "NL",
+      "currency": "EUR",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/nld.png",
+      "callingCode": "+31"
+    },
+    {
+      "id": 159,
+      "icon": "/default/icon-logo-default.png",
+      "name": "New Caledonia",
+      "shortName": "NC",
+      "currency": "XPF",
+      "area": {
+        "id": 20,
+        "region": "Oceania",
+        "subregion": "Melanesia"
+      },
+      "flag": "/default/flags/ncl.png",
+      "callingCode": "+687"
+    },
+    {
+      "id": 160,
+      "icon": "/default/icon-logo-default.png",
+      "name": "New Zealand",
+      "shortName": "NZ",
+      "currency": "NZD",
+      "area": {
+        "id": 10,
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand"
+      },
+      "flag": "/default/flags/nzl.png",
+      "callingCode": "+64"
+    },
+    {
+      "id": 161,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Nicaragua",
+      "shortName": "NI",
+      "currency": "NIO",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/nic.png",
+      "callingCode": "+505"
+    },
+    {
+      "id": 162,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Niger",
+      "shortName": "NE",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/ner.png",
+      "callingCode": "+227"
+    },
+    {
+      "id": 163,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Nigeria",
+      "shortName": "NG",
+      "currency": "NGN",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/nga.png",
+      "callingCode": "+234"
+    },
+    {
+      "id": 164,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Niue",
+      "shortName": "NU",
+      "currency": "",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/niu.png",
+      "callingCode": "+683"
+    },
+    {
+      "id": 165,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Norfolk Island",
+      "shortName": "NF",
+      "currency": "AUD",
+      "area": {
+        "id": 10,
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand"
+      },
+      "flag": "/default/flags/nfk.png",
+      "callingCode": "+672"
+    },
+    {
+      "id": 167,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Northern Mariana Islands",
+      "shortName": "MP",
+      "currency": "USD",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/mnp.png",
+      "callingCode": "+1670"
+    },
+    {
+      "id": 168,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Norway",
+      "shortName": "NO",
+      "currency": "NOK",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/nor.png",
+      "callingCode": "+47"
+    },
+    {
+      "id": 169,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Oman",
+      "shortName": "OM",
+      "currency": "OMR",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/omn.png",
+      "callingCode": "+968"
+    },
+    {
+      "id": 170,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Pakistan",
+      "shortName": "PK",
+      "currency": "PKR",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/pak.png",
+      "callingCode": "+92"
+    },
+    {
+      "id": 171,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Palau",
+      "shortName": "PW",
+      "currency": "",
+      "area": {
+        "id": 21,
+        "region": "Oceania",
+        "subregion": "Micronesia"
+      },
+      "flag": "/default/flags/plw.png",
+      "callingCode": "+680"
+    },
+    {
+      "id": 172,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Palestine, State of",
+      "shortName": "PS",
+      "currency": "ILS",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/pse.png",
+      "callingCode": "+970"
+    },
+    {
+      "id": 173,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Panama",
+      "shortName": "PA",
+      "currency": "",
+      "area": {
+        "id": 13,
+        "region": "Americas",
+        "subregion": "Central America"
+      },
+      "flag": "/default/flags/pan.png",
+      "callingCode": "+507"
+    },
+    {
+      "id": 174,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Papua New Guinea",
+      "shortName": "PG",
+      "currency": "PGK",
+      "area": {
+        "id": 20,
+        "region": "Oceania",
+        "subregion": "Melanesia"
+      },
+      "flag": "/default/flags/png.png",
+      "callingCode": "+675"
+    },
+    {
+      "id": 175,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Paraguay",
+      "shortName": "PY",
+      "currency": "PYG",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/pry.png",
+      "callingCode": "+595"
+    },
+    {
+      "id": 176,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Peru",
+      "shortName": "PE",
+      "currency": "PEN",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/per.png",
+      "callingCode": "+51"
+    },
+    {
+      "id": 177,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Philippines",
+      "shortName": "PH",
+      "currency": "PHP",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/phl.png",
+      "callingCode": "+63"
+    },
+    {
+      "id": 178,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Pitcairn",
+      "shortName": "PN",
+      "currency": "",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/pcn.png",
+      "callingCode": "+64"
+    },
+    {
+      "id": 179,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Poland",
+      "shortName": "PL",
+      "currency": "PLN",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/pol.png",
+      "callingCode": "+48"
+    },
+    {
+      "id": 180,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Portugal",
+      "shortName": "PT",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/prt.png",
+      "callingCode": "+351"
+    },
+    {
+      "id": 181,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Puerto Rico",
+      "shortName": "PR",
+      "currency": "USD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/pri.png",
+      "callingCode": ""
+    },
+    {
+      "id": 182,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Qatar",
+      "shortName": "QA",
+      "currency": "QAR",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/qat.png",
+      "callingCode": "+974"
+    },
+    {
+      "id": 183,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Republic of Kosovo",
+      "shortName": "XK",
+      "currency": "EUR",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/kos.png",
+      "callingCode": "+383"
+    },
+    {
+      "id": 184,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Réunion",
+      "shortName": "RE",
+      "currency": "EUR",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/reu.png",
+      "callingCode": "+262"
+    },
+    {
+      "id": 185,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Romania",
+      "shortName": "RO",
+      "currency": "RON",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/rou.png",
+      "callingCode": "+40"
+    },
+    {
+      "id": 186,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Russian Federation",
+      "shortName": "RU",
+      "currency": "RUB",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/rus.png",
+      "callingCode": "+7"
+    },
+    {
+      "id": 187,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Rwanda",
+      "shortName": "RW",
+      "currency": "RWF",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/rwa.png",
+      "callingCode": "+250"
+    },
+    {
+      "id": 188,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Barthélemy",
+      "shortName": "BL",
+      "currency": "EUR",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/blm.png",
+      "callingCode": "+590"
+    },
+    {
+      "id": 189,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "shortName": "SH",
+      "currency": "SHP",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/shn.png",
+      "callingCode": "+290"
+    },
+    {
+      "id": 190,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Kitts and Nevis",
+      "shortName": "KN",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/kna.png",
+      "callingCode": "+1869"
+    },
+    {
+      "id": 191,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Lucia",
+      "shortName": "LC",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/lca.png",
+      "callingCode": "+1758"
+    },
+    {
+      "id": 192,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Martin (French part)",
+      "shortName": "MF",
+      "currency": "EUR",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/maf.png",
+      "callingCode": "+590"
+    },
+    {
+      "id": 193,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Pierre and Miquelon",
+      "shortName": "PM",
+      "currency": "EUR",
+      "area": {
+        "id": 15,
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "flag": "/default/flags/spm.png",
+      "callingCode": "+508"
+    },
+    {
+      "id": 194,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saint Vincent and the Grenadines",
+      "shortName": "VC",
+      "currency": "XCD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/vct.png",
+      "callingCode": "+1784"
+    },
+    {
+      "id": 195,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Samoa",
+      "shortName": "WS",
+      "currency": "WST",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/wsm.png",
+      "callingCode": "+685"
+    },
+    {
+      "id": 196,
+      "icon": "/default/icon-logo-default.png",
+      "name": "San Marino",
+      "shortName": "SM",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/smr.png",
+      "callingCode": "+378"
+    },
+    {
+      "id": 197,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Sao Tome and Principe",
+      "shortName": "ST",
+      "currency": "STD",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/stp.png",
+      "callingCode": "+239"
+    },
+    {
+      "id": 198,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Saudi Arabia",
+      "shortName": "SA",
+      "currency": "SAR",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/sau.png",
+      "callingCode": "+966"
+    },
+    {
+      "id": 199,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Senegal",
+      "shortName": "SN",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/sen.png",
+      "callingCode": "+221"
+    },
+    {
+      "id": 200,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Serbia",
+      "shortName": "RS",
+      "currency": "RSD",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/srb.png",
+      "callingCode": "+381"
+    },
+    {
+      "id": 201,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Seychelles",
+      "shortName": "SC",
+      "currency": "SCR",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/syc.png",
+      "callingCode": "+248"
+    },
+    {
+      "id": 202,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Sierra Leone",
+      "shortName": "SL",
+      "currency": "SLL",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/sle.png",
+      "callingCode": "+232"
+    },
+    {
+      "id": 203,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Singapore",
+      "shortName": "SG",
+      "currency": "",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/sgp.png",
+      "callingCode": "+65"
+    },
+    {
+      "id": 204,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Sint Maarten (Dutch part)",
+      "shortName": "SX",
+      "currency": "ANG",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/sxm.png",
+      "callingCode": "+1721"
+    },
+    {
+      "id": 205,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Slovakia",
+      "shortName": "SK",
+      "currency": "EUR",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/svk.png",
+      "callingCode": "+421"
+    },
+    {
+      "id": 206,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Slovenia",
+      "shortName": "SI",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/svn.png",
+      "callingCode": "+386"
+    },
+    {
+      "id": 207,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Solomon Islands",
+      "shortName": "SB",
+      "currency": "SBD",
+      "area": {
+        "id": 20,
+        "region": "Oceania",
+        "subregion": "Melanesia"
+      },
+      "flag": "/default/flags/slb.png",
+      "callingCode": "+677"
+    },
+    {
+      "id": 208,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Somalia",
+      "shortName": "SO",
+      "currency": "SOS",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/som.png",
+      "callingCode": "+252"
+    },
+    {
+      "id": 209,
+      "icon": "/default/icon-logo-default.png",
+      "name": "South Africa",
+      "shortName": "ZA",
+      "currency": "ZAR",
+      "area": {
+        "id": 16,
+        "region": "Africa",
+        "subregion": "Southern Africa"
+      },
+      "flag": "/default/flags/zaf.png",
+      "callingCode": "+27"
+    },
+    {
+      "id": 210,
+      "icon": "/default/icon-logo-default.png",
+      "name": "South Georgia and the South Sandwich Islands",
+      "shortName": "GS",
+      "currency": "",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/sgs.png",
+      "callingCode": "+500"
+    },
+    {
+      "id": 212,
+      "icon": "/default/icon-logo-default.png",
+      "name": "South Sudan",
+      "shortName": "SS",
+      "currency": "SSP",
+      "area": {
+        "id": 6,
+        "region": "Africa",
+        "subregion": "Middle Africa"
+      },
+      "flag": "/default/flags/ssd.png",
+      "callingCode": "+211"
+    },
+    {
+      "id": 213,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Spain",
+      "shortName": "ES",
+      "currency": "EUR",
+      "area": {
+        "id": 3,
+        "region": "Europe",
+        "subregion": "Southern Europe"
+      },
+      "flag": "/default/flags/esp.png",
+      "callingCode": "+34"
+    },
+    {
+      "id": 214,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Sri Lanka",
+      "shortName": "LK",
+      "currency": "LKR",
+      "area": {
+        "id": 1,
+        "region": "Asia",
+        "subregion": "Southern Asia"
+      },
+      "flag": "/default/flags/lka.png",
+      "callingCode": "+94"
+    },
+    {
+      "id": 215,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Sudan",
+      "shortName": "SD",
+      "currency": "SDG",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/sdn.png",
+      "callingCode": "+249"
+    },
+    {
+      "id": 216,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Suriname",
+      "shortName": "SR",
+      "currency": "SRD",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/sur.png",
+      "callingCode": "+597"
+    },
+    {
+      "id": 217,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Svalbard and Jan Mayen",
+      "shortName": "SJ",
+      "currency": "NOK",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/sjm.png",
+      "callingCode": "+4779"
+    },
+    {
+      "id": 218,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Swaziland",
+      "shortName": "SZ",
+      "currency": "SZL",
+      "area": {
+        "id": 16,
+        "region": "Africa",
+        "subregion": "Southern Africa"
+      },
+      "flag": "/default/flags/swz.png",
+      "callingCode": "+268"
+    },
+    {
+      "id": 219,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Sweden",
+      "shortName": "SE",
+      "currency": "SEK",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/swe.png",
+      "callingCode": "+46"
+    },
+    {
+      "id": 220,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Switzerland",
+      "shortName": "CH",
+      "currency": "CHF",
+      "area": {
+        "id": 11,
+        "region": "Europe",
+        "subregion": "Western Europe"
+      },
+      "flag": "/default/flags/che.png",
+      "callingCode": "+41"
+    },
+    {
+      "id": 221,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Syrian Arab Republic",
+      "shortName": "SY",
+      "currency": "SYP",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/syr.png",
+      "callingCode": "+963"
+    },
+    {
+      "id": 222,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Taiwan",
+      "shortName": "TW",
+      "currency": "TWD",
+      "area": {
+        "id": 19,
+        "region": "Asia",
+        "subregion": "Eastern Asia"
+      },
+      "flag": "/default/flags/twn.png",
+      "callingCode": "+886"
+    },
+    {
+      "id": 223,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Tajikistan",
+      "shortName": "TJ",
+      "currency": "TJS",
+      "area": {
+        "id": 22,
+        "region": "Asia",
+        "subregion": "Central Asia"
+      },
+      "flag": "/default/flags/tjk.png",
+      "callingCode": "+992"
+    },
+    {
+      "id": 224,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Tanzania, United Republic of",
+      "shortName": "TZ",
+      "currency": "TZS",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/tza.png",
+      "callingCode": "+255"
+    },
+    {
+      "id": 225,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Thailand",
+      "shortName": "TH",
+      "currency": "THB",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/tha.png",
+      "callingCode": "+66"
+    },
+    {
+      "id": 226,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Timor-Leste",
+      "shortName": "TL",
+      "currency": "",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/tls.png",
+      "callingCode": "+670"
+    },
+    {
+      "id": 227,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Togo",
+      "shortName": "TG",
+      "currency": "XOF",
+      "area": {
+        "id": 14,
+        "region": "Africa",
+        "subregion": "Western Africa"
+      },
+      "flag": "/default/flags/tgo.png",
+      "callingCode": "+228"
+    },
+    {
+      "id": 228,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Tokelau",
+      "shortName": "TK",
+      "currency": "NZD",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/tkl.png",
+      "callingCode": "+690"
+    },
+    {
+      "id": 229,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Tonga",
+      "shortName": "TO",
+      "currency": "TOP",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/ton.png",
+      "callingCode": "+676"
+    },
+    {
+      "id": 230,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Trinidad and Tobago",
+      "shortName": "TT",
+      "currency": "TTD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/tto.png",
+      "callingCode": "+1868"
+    },
+    {
+      "id": 231,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Tunisia",
+      "shortName": "TN",
+      "currency": "TND",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/tun.png",
+      "callingCode": "+216"
+    },
+    {
+      "id": 232,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Turkey",
+      "shortName": "TR",
+      "currency": "TRY",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/tur.png",
+      "callingCode": "+90"
+    },
+    {
+      "id": 233,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Turkmenistan",
+      "shortName": "TM",
+      "currency": "TMT",
+      "area": {
+        "id": 22,
+        "region": "Asia",
+        "subregion": "Central Asia"
+      },
+      "flag": "/default/flags/tkm.png",
+      "callingCode": "+993"
+    },
+    {
+      "id": 234,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Turks and Caicos Islands",
+      "shortName": "TC",
+      "currency": "USD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/tca.png",
+      "callingCode": "+1649"
+    },
+    {
+      "id": 235,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Tuvalu",
+      "shortName": "TV",
+      "currency": "",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/tuv.png",
+      "callingCode": "+688"
+    },
+    {
+      "id": 236,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Uganda",
+      "shortName": "UG",
+      "currency": "UGX",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/uga.png",
+      "callingCode": "+256"
+    },
+    {
+      "id": 237,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Ukraine",
+      "shortName": "UA",
+      "currency": "UAH",
+      "area": {
+        "id": 12,
+        "region": "Europe",
+        "subregion": "Eastern Europe"
+      },
+      "flag": "/default/flags/ukr.png",
+      "callingCode": "+380"
+    },
+    {
+      "id": 238,
+      "icon": "/default/icon-logo-default.png",
+      "name": "United Arab Emirates",
+      "shortName": "AE",
+      "currency": "AED",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/are.png",
+      "callingCode": "+971"
+    },
+    {
+      "id": 239,
+      "icon": "/default/icon-logo-default.png",
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "shortName": "GB",
+      "currency": "GBP",
+      "area": {
+        "id": 2,
+        "region": "Europe",
+        "subregion": "Northern Europe"
+      },
+      "flag": "/default/flags/gbr.png",
+      "callingCode": "+44"
+    },
+    {
+      "id": 34,
+      "icon": "/default/icon-logo-default.png",
+      "name": "United States Minor Outlying Islands",
+      "shortName": "UM",
+      "currency": "USD",
+      "area": {
+        "id": 15,
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "flag": "/default/flags/umi.png",
+      "callingCode": ""
+    },
+    {
+      "id": 240,
+      "icon": "/default/icon-logo-default.png",
+      "name": "United States of America",
+      "shortName": "US",
+      "currency": "USD",
+      "area": {
+        "id": 15,
+        "region": "Americas",
+        "subregion": "Northern America"
+      },
+      "flag": "/default/flags/usa.png",
+      "callingCode": "+1"
+    },
+    {
+      "id": 241,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Uruguay",
+      "shortName": "UY",
+      "currency": "UYU",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/ury.png",
+      "callingCode": "+598"
+    },
+    {
+      "id": 242,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Uzbekistan",
+      "shortName": "UZ",
+      "currency": "UZS",
+      "area": {
+        "id": 22,
+        "region": "Asia",
+        "subregion": "Central Asia"
+      },
+      "flag": "/default/flags/uzb.png",
+      "callingCode": "+998"
+    },
+    {
+      "id": 243,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Vanuatu",
+      "shortName": "VU",
+      "currency": "VUV",
+      "area": {
+        "id": 20,
+        "region": "Oceania",
+        "subregion": "Melanesia"
+      },
+      "flag": "/default/flags/vut.png",
+      "callingCode": "+678"
+    },
+    {
+      "id": 244,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Venezuela (Bolivarian Republic of)",
+      "shortName": "VE",
+      "currency": "VEF",
+      "area": {
+        "id": 8,
+        "region": "Americas",
+        "subregion": "South America"
+      },
+      "flag": "/default/flags/ven.png",
+      "callingCode": "+58"
+    },
+    {
+      "id": 245,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Viet Nam",
+      "shortName": "VN",
+      "currency": "VND",
+      "area": {
+        "id": 18,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia"
+      },
+      "flag": "/default/flags/vnm.png",
+      "callingCode": "+84"
+    },
+    {
+      "id": 35,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Virgin Islands (British)",
+      "shortName": "VG",
+      "currency": "",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/vgb.png",
+      "callingCode": "+1284"
+    },
+    {
+      "id": 36,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Virgin Islands (U.S.)",
+      "shortName": "VI",
+      "currency": "USD",
+      "area": {
+        "id": 7,
+        "region": "Americas",
+        "subregion": "Caribbean"
+      },
+      "flag": "/default/flags/vir.png",
+      "callingCode": "+1 340"
+    },
+    {
+      "id": 246,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Wallis and Futuna",
+      "shortName": "WF",
+      "currency": "XPF",
+      "area": {
+        "id": 5,
+        "region": "Oceania",
+        "subregion": "Polynesia"
+      },
+      "flag": "/default/flags/wlf.png",
+      "callingCode": "+681"
+    },
+    {
+      "id": 247,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Western Sahara",
+      "shortName": "EH",
+      "currency": "",
+      "area": {
+        "id": 4,
+        "region": "Africa",
+        "subregion": "Northern Africa"
+      },
+      "flag": "/default/flags/esh.png",
+      "callingCode": "+212"
+    },
+    {
+      "id": 248,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Yemen",
+      "shortName": "YE",
+      "currency": "YER",
+      "area": {
+        "id": 9,
+        "region": "Asia",
+        "subregion": "Western Asia"
+      },
+      "flag": "/default/flags/yem.png",
+      "callingCode": "+967"
+    },
+    {
+      "id": 249,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Zambia",
+      "shortName": "ZM",
+      "currency": "ZMW",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/zmb.png",
+      "callingCode": "+260"
+    },
+    {
+      "id": 250,
+      "icon": "/default/icon-logo-default.png",
+      "name": "Zimbabwe",
+      "shortName": "ZW",
+      "currency": "",
+      "area": {
+        "id": 17,
+        "region": "Africa",
+        "subregion": "Eastern Africa"
+      },
+      "flag": "/default/flags/zwe.png",
+      "callingCode": "+263"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_gradient">
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:textColor="#D9000000"
+        android:textSize="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:text="@string/str_process"
+        app:textfont="@string/Gilroy_SemiBold"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#26000000"/>
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:gravity="right">
+
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/btContinue"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#017AFF"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="@string/continue_"
+            android:gravity="center"
+            android:textAllCaps="false"
+            app:textfont="@string/Gilroy_SemiBold"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#26000000"/>
+        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+            android:id="@+id/btUpload"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_gravity="right"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#017AFF"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="Upload"
+            android:textAllCaps="false"
+            app:textfont="@string/Gilroy_SemiBold"/>
+    </LinearLayout>
+</LinearLayout>

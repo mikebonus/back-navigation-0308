@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clTags"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black2">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/grvTags"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        android:stretchMode="spacingWidthUniform"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="@+id/clTags"
+        app:layout_constraintEnd_toEndOf="@+id/clTags"
+        app:layout_constraintHeight_max="200dp"
+        app:layout_constraintHeight_min="20dp"
+        app:layout_constraintStart_toStartOf="@+id/clTags"
+        app:layout_constraintTop_toTopOf="@+id/clTags"
+        tools:ignore="MissingConstraints" />
+</FrameLayout>

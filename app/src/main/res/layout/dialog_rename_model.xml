@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_grey">
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:text="@string/rename_model"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_grey_white"
+        android:gravity="center_vertical"
+        android:hint=""
+        android:text=""
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:singleLine="true"
+        android:scrollbars="none"
+        android:textSize="16dp"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:layout_marginTop="30dp" />
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/btCancel"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/blue1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:textAllCaps="false"/>
+        <TextView
+            android:id="@+id/btConfirm"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="right"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/blue1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/confirm"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

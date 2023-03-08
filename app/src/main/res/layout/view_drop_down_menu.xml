@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_rounded">
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_organization_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textfont="@string/Gilroy_Regular"
+        tools:text="Luxolis" />
+
+    <View
+        android:id="@+id/view_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/surface_dark_100"
+        app:layout_constraintTop_toBottomOf="@id/text_organization_name" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:background="@drawable/bg_black_8"
+        android:gravity="center"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/text_add_organization"
+        app:layout_constraintEnd_toEndOf="@id/text_add_organization"
+        app:layout_constraintStart_toStartOf="@id/text_add_organization"
+        app:layout_constraintTop_toTopOf="@id/text_add_organization"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_add_organization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/common_add_organization"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:textfont="@string/Gilroy_SemiBold" />
+
+    <ImageView
+        android:id="@+id/image_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@id/text_add_organization"
+        app:layout_constraintEnd_toStartOf="@id/text_add_organization"
+        app:layout_constraintTop_toTopOf="@id/text_add_organization" />
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/text_cant_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/join_organization_screen_cant_find"
+        android:textColor="@color/primary_blue"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_separator"
+        app:textfont="@string/Gilroy_Regular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

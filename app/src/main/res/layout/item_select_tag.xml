@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clTag"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="8dp"
+    android:padding="8dp"
+    android:background="@drawable/bg_gradient_12">
+
+    <CheckBox
+        android:id="@+id/cbName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/white"
+        android:text="CheckBox"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone"/>
+
+    <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+        android:id="@+id/tvTagItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:paddingStart="2dp"
+        android:lineSpacingExtra="0dp"
+        android:text="Comments"
+        android:textColor="@color/white75"
+        app:textfont="@string/Gilroy_Regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_circle_white"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_delete"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient_12"
+    android:visibility="visible">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/profile"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/lnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="24dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="0dp"
+                    android:text="@string/edit_cad_info"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    app:textfont="@string/Gilroy_Regular" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                        android:id="@+id/edtCadFileName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_transparent_stroke_white_8"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_name"
+                        android:padding="12dp"
+                        android:scrollbars="none"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white65"
+                        android:textColorHint="@color/white65"
+                        android:textSize="15sp"
+                        android:maxLength="15"
+                        android:layout_marginBottom="20dp"
+                        app:textfont="@string/Gilroy_Regular" />
+
+                    <com.luxpmsoft.luxaipoc.widget.EdittextFonts
+                        android:id="@+id/edtDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_transparent_stroke_white_8"
+                        android:gravity="top|left"
+                        android:hint="@string/add_description"
+                        android:padding="12dp"
+                        android:scrollbars="none"
+                        android:maxLines="3"
+                        android:text=""
+                        android:textColor="@color/white65"
+                        android:textColorHint="@color/white65"
+                        android:textSize="15sp"
+                        android:maxLength="300"
+                        app:textfont="@string/Gilroy_Regular"
+                        android:layout_marginBottom="24dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/buttonPanel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right"
+                        android:paddingBottom="10dp"
+                        android:layout_marginBottom="26dp">
+
+                        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                            android:id="@+id/btCancel"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:layout_gravity="left"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:text="@string/cancel"
+                            android:layout_marginEnd="60dp"
+                            android:gravity="center"
+                            android:textAllCaps="false"
+                            app:textfont="@string/Gilroy_SemiBold"/>
+
+                        <com.luxpmsoft.luxaipoc.widget.TextViewFonts
+                            android:id="@+id/btEditCadFile"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp"
+                            android:layout_gravity="right"
+                            android:paddingStart="8dp"
+                            android:paddingEnd="8dp"
+                            android:layout_width="100dp"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_blue_24"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:text="@string/update"
+                            android:textAllCaps="false"
+                            app:textfont="@string/Gilroy_SemiBold"/>
+                    </LinearLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/flProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bg_gradient">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animation.json"
+            app:lottie_loop="true" />
+    </FrameLayout>
+</FrameLayout>
