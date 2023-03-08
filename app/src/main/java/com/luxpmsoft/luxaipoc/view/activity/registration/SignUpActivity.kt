@@ -29,6 +29,7 @@ import com.luxpmsoft.luxaipoc.widget.FacebookLogin
 import com.luxpmsoft.luxaipoc.widget.SignInGoogle
 import kotlinx.android.synthetic.main.activity_sign_in1.*
 
+// 2023-03-08
 class SignUpActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySignUpBinding
